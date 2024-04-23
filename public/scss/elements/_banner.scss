@@ -1,0 +1,240 @@
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.box-banner {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+  img.img-banner {
+    object-fit: cover;
+    background-color: #162522;
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+
+    &.banner-portrait {
+      display: none !important;
+    }
+
+    @include xs {
+
+      &.banner-portrait+.img-banner {
+        display: none !important;
+      }
+
+      &.banner-portrait {
+        display: block !important;
+      }
+    }
+  }
+
+  .box-text {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    transform: translateY(calc(-50% - 20px));
+    height: 83%;
+
+    .b-text {
+      width: 47%;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+
+      @include lt-md {
+        & {
+          width: 100% !important;
+        }
+      }
+
+      h1 {
+        span {
+          font-size: 0.7em;
+        }
+      }
+
+      &.text-right {
+        margin-left: auto;
+      }
+    }
+  }
+
+  .owl-carousel {
+    .b-text {
+      >* {
+        &:nth-child(1) {
+          opacity: 0;
+          transition-delay: .3s;
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+          transition-delay: .6s;
+        }
+
+        &:nth-child(3) {
+          opacity: 0;
+          transition-delay: .9s;
+        }
+
+        &:nth-child(4) {
+          opacity: 0;
+          transition-delay: 1.2s;
+        }
+
+        &:nth-child(5) {
+          opacity: 0;
+          transition-delay: 1.5s;
+        }
+
+        &:nth-child(6) {
+          opacity: 0;
+          transition-delay: 1.8s;
+        }
+      }
+    }
+
+    .owl-item.active {
+      .b-text {
+        >* {
+          &:nth-child(1) {
+            opacity: 1;
+            -webkit-animation: fadeInUp 1s .3s;
+            animation: fadeInUp 1s .3s;
+          }
+
+          &:nth-child(2) {
+            opacity: 1;
+            -webkit-animation: fadeInUp 1s .6s;
+            animation: fadeInUp 1s .6s;
+          }
+
+          &:nth-child(3) {
+            opacity: 1;
+            -webkit-animation: fadeInUp 1s .9s;
+            animation: fadeInUp 1s .9s;
+          }
+
+          &:nth-child(4) {
+            opacity: 1;
+            -webkit-animation: fadeInUp 1s 1.2s;
+            animation: fadeInUp 1s 1.2s;
+          }
+
+          &:nth-child(5) {
+            opacity: 1;
+            -webkit-animation: fadeInUp 1s 1.5s;
+            animation: fadeInUp 1s 1.5s;
+          }
+
+          &:nth-child(6) {
+            opacity: 1;
+            -webkit-animation: fadeInUp 1s 1.8s;
+            animation: fadeInUp 1s 1.8s;
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      width: 100%;
+      height: 0px;
+      transform: translateY(-50%);
+
+      button {
+        display: flex;
+        align-items: center;
+        transform: translateY(-50%);
+        position: absolute;
+        transition: opacity .5s;
+        opacity: 0.4;
+        padding: 7px;
+        border-radius: .25rem;
+        border: 0px;
+        background-color: transparent;
+
+        &:not(.disabled) {
+          &:hover {
+            opacity: 1;
+          }
+        }
+
+        &.disabled {
+          opacity: 0;
+        }
+
+        &.owl-prev {
+          float: left;
+          left: 0px;
+        }
+
+        &.owl-next {
+          float: right;
+          right: 0px;
+        }
+
+        span {
+          font-size: 60px;
+        }
+      }
+    }
+
+    .owl-dots {
+      margin: 5px auto;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .owl-dot {
+        margin: 2px 5px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        transition: .5s;
+        aspect-ratio: 1;
+        border: 1px solid #ffffff;
+        padding: 0px;
+        background-clip: content-box;
+        width: 11px;
+        outline: none;
+
+        &.active {
+          padding: 2px;
+          width: 15px;
+        }
+      }
+    }
+  }
+}

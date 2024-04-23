@@ -21,34 +21,43 @@
   <!-- begin #content -->
   <div id="content" class="content">
 
-    <section>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://via.placeholder.com/1200x500" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://via.placeholder.com/1200x500" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://via.placeholder.com/1200x500" alt="Third slide">
+    <section class="box-banner">
+      <div class="owl-carousel">
+
+        <div class="item">
+          <img class="img-banner" src="public/images/banner.jpg">
+          <div class="box-text container">
+            <div class="b-text text-white mr-0">
+              <h3 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
+              <h3 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h3>
+              <h3 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h3>
+            </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="item">
+          <img class="img-banner" src="public/images/banner.jpg">
+          <div class="box-text container">
+            <div class="b-text text-white mr-0">
+              <h3 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
+              <h3 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h3>
+              <h3 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="img-banner" src="public/images/banner.jpg">
+          <div class="box-text container">
+            <div class="b-text text-white mr-0">
+              <h3 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
+              <h3 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h3>
+              <h3 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h3>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
+
     <section class="box-list">
       <div class="container">
         <div class="row mb-3">
@@ -192,13 +201,16 @@
           <ul class="pagination justify-content-end">
             <li class="page-item disabled">
               <a class="page-link" href="#" tabindex="-1">
-                << /a>
+                <span class="material-symbols-outlined">chevron_left</span>
+              </a>
             </li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
             <li class="page-item">
-              <a class="page-link" href="#">></a>
+              <a class="page-link" href="#">
+                <span class="material-symbols-outlined">chevron_right</span>
+              </a>
             </li>
           </ul>
         </nav>

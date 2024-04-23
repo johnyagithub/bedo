@@ -96,6 +96,7 @@ header {
           display: flex;
           justify-content: center;
           align-items: center;
+          text-decoration: none;
 
           @include lt-md {
             & {
@@ -160,7 +161,7 @@ header {
               top: calc(50% - 5px);
               transform: rotateX(0deg) rotate(45deg) translateY(-50%);
               transform-origin: center;
-              border: 1px solid transparent;
+              border: 2px solid transparent;
               border-right-color: #fff;
               border-bottom-color: #fff;
               width: 10px;
@@ -195,7 +196,7 @@ header {
   }
 }
 
-#content {
+#content,body footer {
   padding-right: $width-menu;
 
   @include lt-md {

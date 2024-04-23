@@ -3,6 +3,7 @@
   --color-primary: #da1f2e;
   --hov-color-primary: #9a2a33;
   --color-secondary: #898989;
+  --color-warning: #ffd602;
 }
 
 @mixin theme($theme: var(--color-primary)) {
@@ -29,11 +30,11 @@ body {
   }
 
   .btn-primary:hover {
-    @include theme($theme:var(--hov-color-primary));
+    @include theme($theme: var(--hov-color-primary));
   }
 
   .text-primary {
-    color: var(--color-primary) !important;
+    color: var(--color-warning) !important;
   }
 
   .bg-secondary {
@@ -41,11 +42,19 @@ body {
   }
 
   .btn-secondary {
-    @include theme($theme:var(--color-secondary));
+    @include theme($theme: var(--color-secondary));
   }
 
   .text-secondary {
     color: var(--color-secondary) !important;
+  }
+
+  .btn-warning {
+    @include theme($theme: var(--color-warning));
+  }
+
+  .text-warning {
+    color: var(--color-warning) !important;
   }
 
   .card-body {
