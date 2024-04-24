@@ -1,14 +1,15 @@
 :root {
   // themes color
-  --color-primary: #da1f2e;
-  --hov-color-primary: #9a2a33;
+  --color-primary: #035427;
+  --hov-color-primary: #006b30;
   --color-secondary: #898989;
   --color-warning: #ffd602;
 }
 
 @mixin theme($theme: var(--color-primary)) {
-  background-color: $theme;
-  border-color: $theme;
+  background-color: $theme !important;
+  border-color: $theme !important;
+  box-shadow: none !important;
 }
 
 $border-radius: 20px;
@@ -21,16 +22,27 @@ body {
   font-family: 'Prompt', sans-serif;
   font-weight: 100;
 
+  button.btn {
+    border-radius: calc($border-radius / 2);
+  }
+
   .bg-primary {
     background-color: var(--color-primary) !important;
   }
 
-  .btn-primary {
+  .btn-primary,
+  .btn-outline-primary:hover,
+  .btn-outline-primary:active {
     @include theme;
   }
 
   .btn-primary:hover {
     @include theme($theme: var(--hov-color-primary));
+  }
+
+  .btn-outline-primary {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
   }
 
   .text-primary {
@@ -60,6 +72,51 @@ body {
   .card-body {
     a {
       text-decoration: none;
+    }
+  }
+
+  .h1,
+  h1 {
+    font-size: 2.5em
+  }
+
+  .h2,
+  h2 {
+    font-size: 2em
+  }
+
+  .h3,
+  h3 {
+    font-size: 1.75em
+  }
+
+  .h4,
+  h4 {
+    font-size: 1.5em
+  }
+
+  .h5,
+  h5 {
+    font-size: 1.25em;
+  }
+
+  .h6,
+  h6 {
+    font-size: 1em;
+  }
+
+  .h-head {
+    position: relative;
+    padding-bottom: 5px;
+
+    &::after {
+      content: "";
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      width: 100px;
+      border-top: 1px solid #000;
+      bottom: 0px;
     }
   }
 

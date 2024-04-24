@@ -9,9 +9,7 @@ header {
   padding-right: $width-menu;
 
   @include lt-md {
-    & {
-      padding-right: $width-menu-mobile;
-    }
+    padding-right: $width-menu-mobile;
   }
 
   a.navbar-brand {
@@ -19,7 +17,7 @@ header {
     margin: 6px 0px;
 
     img.img-logo {
-      height: 60px;
+      height: 50px;
     }
 
     @include md {
@@ -44,9 +42,7 @@ header {
     justify-content: center;
 
     @include lt-md {
-      & {
-        width: $width-menu-mobile;
-      }
+      width: $width-menu-mobile;
     }
 
     @mixin flex-column {
@@ -66,18 +62,44 @@ header {
         width: $width-menu;
 
         @include lt-md {
-          & {
-            width: $width-menu-mobile;
-          }
+          width: $width-menu-mobile;
         }
       }
 
       .b-questionnaire {
         @include flex-column();
+
+        button[data-fancybox] {
+          background-color: transparent;
+          border: none;
+          outline: none !important;
+        }
       }
 
       .b-fontsize {
         @include flex-column();
+
+        img {
+          cursor: pointer;
+          margin: 3px 0px;
+
+          &.size-small {
+            width: 22px;
+          }
+
+          &.size-medium {
+            width: 27px;
+          }
+
+          &.size-large {
+            width: 32px;
+          }
+
+          &.active {
+            mix-blend-mode: color-dodge;
+            filter: contrast(0.5);
+          }
+        }
       }
 
       .b-language {
@@ -99,9 +121,7 @@ header {
           text-decoration: none;
 
           @include lt-md {
-            & {
-              width: $width-menu-mobile;
-            }
+            width: $width-menu-mobile;
           }
         }
       }
@@ -115,8 +135,6 @@ header {
       color: #fff;
       width: 400px;
       max-width: calc(100vw - $width-menu);
-      max-height: 100vh;
-      overflow: auto;
       padding: 10px 26px;
       text-align: end;
       height: 100vh;
@@ -128,9 +146,7 @@ header {
       opacity: 1;
 
       @include lt-md {
-        & {
-          max-width: calc(100vw - $width-menu-mobile);
-        }
+        max-width: calc(100vw - $width-menu-mobile);
       }
 
       &:not(.show) {
@@ -141,6 +157,12 @@ header {
 
       ul.navbar-nav {
         width: 100%;
+        max-height: 100%;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+          width: 0px;
+        }
 
         li.nav-item {
           border-top: 1px solid rgba(255, 255, 255, .2);
@@ -154,6 +176,8 @@ header {
             color: #fff;
             padding-left: 28px;
             position: relative;
+            font-weight: 500;
+            transition: .5s;
 
             &.dropdown-toggle::after {
               position: absolute;
@@ -171,14 +195,46 @@ header {
             }
           }
 
-          &.show .dropdown-toggle::after {
-            transform: rotateX(-180deg) rotate(45deg) translateY(-50%) !important;
+          &.active,
+          &:hover {
+            a.nav-link {
+              color: var(--color-warning) !important;
+            }
+          }
+
+          &.show {
+            .dropdown-toggle::after {
+              transform: rotateX(-180deg) rotate(45deg) translateY(-50%) !important;
+            }
+          }
+
+          .dropdown-menu {
+            background-color: transparent;
+            margin-top: -20px;
+            border: none;
+
+            a.dropdown-item {
+              color: #fff;
+              text-align: right;
+              padding: 10px 0px;
+            }
+
+            .dropdown-item {
+              &:hover {
+                background-color: transparent;
+                color: var(--color-warning) !important;
+              }
+            }
           }
 
           @include lt-md {
             a.nav-link {
               margin: 8px 0px;
             }
+          }
+
+          @include lt-xl {
+            padding: 0px 10px;
           }
         }
       }
@@ -187,21 +243,189 @@ header {
         margin-top: auto;
         display: flex;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
         border-top: 1px solid rgb(255 255 255 / 20%);
-        padding-top: 25px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 7px;
+
+        img {
+          width: 45px;
+        }
+
+        @include lt-md {
+          padding-top: 12px;
+          padding-bottom: 3px;
+        }
       }
+    }
+  }
+
+  #form-search {
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    background-color: rgb(45 48 56 / 79%);
+    background-clip: content-box;
+    padding-right: $width-menu;
+    transition: .5s;
+    display: flex;
+    height: 100vh;
+    z-index: -1;
+
+    form {
+      background-color: #fff;
+      border-radius: $border-radius;
+      width: 500px;
+      max-width: calc(100vw - calc($width-menu-mobile + 20px));
+      flex-flow: nowrap;
+
+      button.btn {
+        border: none;
+        display: flex;
+        box-shadow: none;
+      }
+
+      .form-control {
+        border: none;
+        background-color: #fff;
+        border-radius: $border-radius;
+        box-shadow: none;
+        padding-left: 0px;
+        width: 100%;
+        padding: 0px;
+      }
+    }
+
+    @include lt-md {
+      padding-right: $width-menu-mobile;
+    }
+
+    &.show {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &:not(.show) {
+      visibility: hidden;
+      opacity: 0;
     }
   }
 }
 
-#content,body footer {
+#content,
+body footer {
   padding-right: $width-menu;
 
   @include lt-md {
-    & {
-      padding-right: $width-menu-mobile;
+    padding-right: $width-menu-mobile;
+  }
+}
+
+.fancybox-container {
+  .fancybox-bg {
+    background: rgba(45, 48, 56, .79);
+  }
+
+  .fancybox-inner {
+    #questionnaire {
+      border-radius: $border-radius;
+
+      table {
+        width: 700px;
+        max-width: 100%;
+        margin: 25px 0px;
+
+        thead {
+          tr {
+            &:first-child {
+              background-color: #f3f3f3;
+            }
+
+            th {
+              font-weight: 100;
+
+              &:first-child {
+                background-color: var(--color-primary);
+                border-top-left-radius: calc($border-radius / 2);
+                border-bottom-left-radius: calc($border-radius / 2);
+                color: #fff;
+              }
+
+              &:last-child {
+                border-bottom-right-radius: calc($border-radius / 2);
+                border-top-right-radius: calc($border-radius / 2);
+              }
+            }
+
+            td {
+              color: var(--color-primary);
+              font-weight: 500;
+              padding-top: 25px;
+            }
+          }
+        }
+
+        tbody {
+          tr {
+            td {
+
+              label {
+                width: 100%;
+                height: 100%;
+              }
+
+              input[type=checkbox],
+              input[type=radio] {
+                vertical-align: middle;
+                margin-bottom: 0px;
+                width: 17px;
+                height: 17px;
+                filter: grayscale(0.4) hue-rotate(287deg);
+              }
+            }
+
+            &:first-child {
+              td {
+                &:first-child {
+                  border-top-left-radius: calc($border-radius / 2);
+                }
+
+                &:last-child {
+                  border-top-right-radius: calc($border-radius / 2);
+                }
+              }
+            }
+
+            &:last-child {
+              td {
+                &:first-child {
+                  border-bottom-left-radius: calc($border-radius / 2);
+                }
+
+                &:last-child {
+                  border-bottom-right-radius: calc($border-radius / 2);
+                }
+              }
+            }
+          }
+        }
+
+        td,
+        th {
+          padding: 10px 15px;
+          border: none;
+        }
+      }
+
+      button[data-fancybox-close].fancybox-button {
+        background-color: #000000;
+        margin: 10px;
+        padding: 4px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
     }
   }
 }

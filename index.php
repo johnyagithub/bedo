@@ -7,6 +7,7 @@
   <style>
     header {
       position: fixed;
+      margin-top: 20px;
     }
   </style>
 
