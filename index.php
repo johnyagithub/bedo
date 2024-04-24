@@ -226,6 +226,16 @@
   <!-- end footer -->
 
   <?php include ('./inc/inc-script.php'); ?>
+  <script>
+    $(function () {
+      $("#questionnaire [data-fancybox-close]").on("click", function () {
+        localStorage.setItem('questionnaire', 'allow');
+      });
+      if (localStorage.getItem('questionnaire') == null) {
+        setTimeout(function () { $.fancybox.open($('#questionnaire')); }, 1000);
+      }
+    });
+  </script>
 </body>
 
 </html>

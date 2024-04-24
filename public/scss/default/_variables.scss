@@ -120,6 +120,26 @@ body {
     }
   }
 
+  .fancybox-container {
+    .fancybox-bg {
+      background: rgba(45, 48, 56, .79);
+    }
+
+    .fancybox-content {
+      border-radius: $border-radius;
+
+      button[data-fancybox-close].fancybox-button {
+        background-color: #000000;
+        margin: 10px;
+        padding: 4px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
+
   footer {
     background: #000;
     color: #fff;

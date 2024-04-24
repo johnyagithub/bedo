@@ -1,0 +1,36 @@
+.cookie-con-head {
+  position: fixed;
+  z-index: 99;
+  padding: 20px;
+  background-color: #ffffff;
+  bottom: -2px;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  box-sizing: border-box;
+  width: 1080px;
+  box-shadow: 0 0 8px 0px rgba(0, 0, 0, .04);
+  transition: .5s;
+  border-radius: $border-radius;
+  max-width: calc(100% - 20px);
+
+
+  &.show {
+    transform: translate(-50%, -35px);
+
+    @include lt-md {
+      transform: translate(-50%, -10px);
+    }
+  }
+
+  .inner-cookie {
+    @include lt-md {
+      padding-right: 0px !important;
+      text-align: left;
+    }
+  }
+}
+
+#box-cookie {
+  width: 1000px;
+  max-width: 100%;
+}

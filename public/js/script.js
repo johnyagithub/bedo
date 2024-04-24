@@ -14,6 +14,10 @@ $(function () {
     $('body').css('font-size', $(this).data('font-size') || '');
   });
 
+  if (localStorage.getItem('cookie') != 'allow') {
+    setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
+  }
+
   sliderBanner();
   navDropdown();
 });
@@ -58,5 +62,12 @@ let iconSearch = (This) => {
     setTimeout(() => {
       $("header #form-search form .form-control").focus();
     }, "1000");
+  }
+}
+
+let setcookieuser = (x) => {
+  $("#cookie-con-head").removeClass('show');
+  if (x == 'allow') {
+    localStorage.setItem('cookie', 'allow');
   }
 }

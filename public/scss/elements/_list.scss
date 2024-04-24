@@ -64,6 +64,7 @@ section.box-list {
         color: var(--color-primary);
         font-weight: 500;
         transition: .5s;
+        padding: 0px
       }
 
       &.active,&:hover:not(.disabled) {
