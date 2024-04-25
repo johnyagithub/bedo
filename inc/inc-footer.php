@@ -36,6 +36,7 @@
           <li><a class="nav-link" href="#">ความหลากหลายทางชีวภาพ</a></li>
           <li><a class="nav-link" href="#">ห้องสมุด</a></li>
           <li><a class="nav-link" href="#">ติดต่อ</a></li>
+          <li><a class="nav-link" href="#">sitemap</a></li>
         </ul>
       </div>
     </div>
@@ -43,7 +44,7 @@
   <div class="footer-bottom d-flex align-items-center">
     <div class="container d-flex justify-content-between">
       <p class="m-0">© สงวนลิซสิทธิ์ 2566 สำนักงานพัฒนาศรษฐกิจจากฐานชีวิภาพ (องค์การมหาชน)</p>
-      <p class="m-0"><a href="#" data-fancybox="" data-src="#box-cookie">นโยมายเว็นไซด์ | นโยบายคุ้บครองผัอบูลส่วนบุคคล | นโยนายความปลอดภัย</a></p>
+      <p class="m-0"><a href="#" data-fancybox="" data-src="#cookie">นโยบายเว็บไซด์</a> | <a href="#" data-fancybox="" data-src="#cookie2">นโยบายคุ้บครองผัอบูลส่วนบุคคล</a> | <a href="#" data-fancybox="" data-src="#cookie3">นโยบายความปลอดภัย</a></p>
     </div>
   </div>
 </footer>

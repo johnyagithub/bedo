@@ -1,5 +1,4 @@
 /* Default  */
-
 @import'default/media-queries';
 @import'default/variables';
 @import'default/hamburger-icon';
@@ -10,3 +9,6 @@
 @import'elements/list';
 @import'elements/banner';
 @import'elements/cookie';
+
+/* pages */
+@import'pages/index';

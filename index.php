@@ -59,162 +59,220 @@
       </div>
     </section>
 
-    <section class="box-list">
-      <div class="container">
-        <div class="row mb-3">
+    <section class="box-biodiversity py-5">
+      <div class="container text-center">
+        <h3 class="h-head text-white">ความหลากหลายทางชัวภาพ</h3>
+        <h3 class="mt-4 opacity-06">"โครงการต้นแบบการเสริมสร้างศักยภาพ"</h3>
+        <p class="opacity-06">
+          ขององค์กรปกครองส่วนท้องถิ่นในการป้องกันและใช้ประโยชน์ความหลากหลายทางชีวภาพอย่างยั่งยืนในภูมินิเวศของประเทศไทย
+        </p>
+        <div class="row list-biodiversity">
+          <div class="col-sm-4  py-3">
+            <h3 class="h-head">พืช <img src="public/images/icon-plant.png"></h3>
+            <h1><span class="counter">284</span></h1>
+          </div>
+          <div class="col-sm-4 py-3">
+            <h3 class="h-head">สัตว์ <img src="public/images/icon-animal.png"></h3>
+            <h1><span class="counter">570</span></h1>
+          </div>
+          <div class="col-sm-4 py-3">
+            <h3 class="h-head">จุลินทรีย์ <img src="public/images/icon-microorganism.png"></h3>
+            <h1><span class="counter">62</span></h1>
+          </div>
+        </div>
+        <button type="button" class="btn btn-warning px-4">แผนที่ความหลากหลายทางชีวภาพ</button>
+      </div>
+    </section>
 
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
+    <section class="py-5">
+      <div class="container">
+        <h2 class="h-head text-center">สาระน่ารู้</h2>
+        <div class="row mt-5">
+          <div class="col-md-6">dgdsg</div>
+          <div class="col-md-6">dgdsg</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-slide py-5" style="background-color:#f7f7f7;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 class="h-head">บทความ</h3>
+          </div>
+          <div class="col-sm-6 d-flex align-items-center flex-wrap">
+            <div class="arrow-default">
+              <div class="o-prev">
+                <span class="material-symbols-outlined">trending_flat</span>
               </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
+              <div class="owl-dots"></div>
+              <div class="o-next">
+                <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4">รายละเอียด</a>
           </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
+        </div>
+
+        <div class="owl-carousel box-list-article py-3" data-itemSlide-pc="2" data-itemSlide-Tablet="2"
+          data-itemSlide-mobile="1"  data-dots="false">
+
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natura</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 p-3">
-            <div class="card bg-light">
-              <img class="card-img-top" src="https://via.placeholder.com/500x400" alt="Card image cap">
-              <div class="card-body">
-                <a href="#" class="text-dark">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                </a>
-              </div>
-              <div class="card-footer d-flex">
-                <a class="btn btn-primary w-100" href="#" role="button">view more</a>
-              </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
+                </div>
+              </a>
             </div>
           </div>
 
         </div>
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-end">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1">
-                <span class="material-symbols-outlined">chevron_left</span>
+      </div>
+    </section>
+
+    <section class="box-slide py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 class="h-head">กิจกรรม</h3>
+          </div>
+          <div class="col-sm-6 d-flex align-items-center flex-wrap">
+            <div class="arrow-default">
+              <div class="o-prev">
+                <span class="material-symbols-outlined">trending_flat</span>
+              </div>
+              <div class="owl-dots"></div>
+              <div class="o-next">
+                <span class="material-symbols-outlined">trending_flat</span>
+              </div>
+            </div>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4">รายละเอียด</a>
+          </div>
+        </div>
+
+        <div class="owl-carousel box-list-article py-3" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
+          data-itemSlide-mobile="1" data-dots="false">
+
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
+                </div>
               </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <span class="material-symbols-outlined">chevron_right</span>
+            </div>
+          </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                </div>
               </a>
-            </li>
-          </ul>
-        </nav>
+            </div>
+          </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card item col-12">
+            <div class="card-body">
+              <a href="#">
+                <div class="img">
+                  <img src="public/images/img-article.jpg" alt="">
+                </div>
+                <div class="box-text">
+                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
