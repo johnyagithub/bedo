@@ -14,20 +14,24 @@
           <div class="hamburger__hidden"></div>
         </div>
       </div>
-      <div class="mt-auto">
-        <div class="b-questionnaire my-4">
+      <div class="mt-auto" id="bar-right">
+        <div class="b-questionnaire my-3">
           <button data-fancybox="" data-src="#questionnaire">
             <img src="public/images/icon-questionnaire.png">
           </button>
         </div>
-        <div class="b-fontsize my-4">
+        <div class="b-fontsize my-3">
           <img src="public/images/icon-fontsize.png" data-font-size="13" class="size-small">
           <img src="public/images/icon-fontsize.png" class="size-medium active">
           <img src="public/images/icon-fontsize.png" data-font-size="19" class="size-large">
         </div>
-        <div class="b-language my-4">
-          <a href="#">th</a>
-          <a href="#">en</a>
+        <div class="b-language my-3">
+          <a href="#" data-language="th">
+            <img src="public/images/th.png">
+          </a>
+          <a href="#" data-language="en">
+            <img src="public/images/en.png">
+          </a>
         </div>
         <div class="b-search">
           <a data-toggle="collapse" href="#form-search" role="button" aria-expanded="false" aria-controls="form-search"
@@ -58,7 +62,7 @@
           <a class="nav-link" href="#">โครงการ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">โครงการ</a>
+          <a class="nav-link" href="#">กิจกรรม</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"

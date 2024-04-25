@@ -1,0 +1,48 @@
+$background-color3: #12432d;
+
+footer {
+  background-color: $background-color3;
+  color: #fff;
+
+  .img-logo {
+    filter: brightness(0) invert(1);
+    height: 60px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+
+    li {
+      a {
+        margin: 10px 0px;
+        color: #fff;
+        display: inline-block;
+
+        &:hover {
+          color: #fff;
+        }
+
+        &.nav-link {
+          text-decoration: underline;
+          margin: 0px;
+        }
+      }
+
+      .material-symbols-outlined {
+        padding: 1px;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .footer-bottom {
+    background-color: $background-color2;
+    min-height: $width-menu;
+    color: rgb(255 255 255 / 40%);
+
+    a {
+      color: rgb(255 255 255 / 40%);
+    }
+  }
+}

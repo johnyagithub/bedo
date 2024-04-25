@@ -1,5 +1,6 @@
 $width-menu: 60px;
 $width-menu-mobile: 50px;
+$background-color2: #023821;
 
 header {
   position: sticky;
@@ -10,6 +11,7 @@ header {
 
   @include lt-md {
     padding-right: $width-menu-mobile;
+    background-color: $background-color2;
   }
 
   @include lt-xl {
@@ -57,16 +59,37 @@ header {
 
     .box-header {
       height: 100vh;
-      background-color: #023821;
+      background-color: $background-color2;
       z-index: 98;
       position: relative;
       @include flex-column();
+
+      @include lt-md {
+        background-color: transparent;
+      }
+
+      #bar-right {
+        @include lt-md {
+          visibility: hidden;
+          opacity: 0;
+          transition: .5s 0s;
+          right: -100vw;
+          position: relative;
+        }
+      }
 
       .hamburger {
         width: $width-menu;
 
         @include lt-md {
           width: $width-menu-mobile;
+
+          &.is-active+#bar-right {
+            visibility: visible;
+            opacity: 1;
+            transition: .5s .5s;
+            right: 0px;
+          }
         }
       }
 
@@ -108,6 +131,28 @@ header {
 
       .b-language {
         @include flex-column();
+
+        a {
+          padding: 10px 0px;
+          width: 20px;
+          display: flex;
+          justify-content: center;
+          border-top: 2px solid rgb(255 255 255 / 43%);
+
+          &:first-child {
+            border-top: none;
+          }
+
+          img {
+            width: 30px;
+          }
+        }
+
+        html[lang="th"] & a[data-language="th"],
+        html[lang="en"] & a[data-language="en"] {
+          opacity: .5;
+          pointer-events: none;
+        }
       }
 
       .b-search {
@@ -152,7 +197,13 @@ header {
       opacity: 1;
 
       @include lt-md {
-        max-width: calc(100vw - $width-menu-mobile);
+        max-width: 100vw;
+        right: 0px;
+        height: calc(100vh - 52px);
+        top: auto;
+        bottom: 0px;
+        border-right: $width-menu-mobile solid $background-color2;
+        background-color: rgb(3 37 21 / 92%);
       }
 
       &:not(.show) {
@@ -275,8 +326,6 @@ header {
     transition: .5s;
     display: flex;
     height: 100vh;
-    // padding-right: $width-menu;
-    // z-index: -1;
 
     form {
       background-color: #fff;
@@ -303,7 +352,7 @@ header {
     }
 
     @include lt-md {
-      padding-right: $width-menu-mobile;
+      padding-right: 0px;
     }
 
     &.show {
@@ -346,10 +395,6 @@ header {
             color: #fff;
 
             @include lt-md {
-              // border-top-left-radius: 0px;
-              // border-bottom-left-radius: 0px;
-              // border-bottom-right-radius: calc($border-radius / 2);
-              // border-top-right-radius: calc($border-radius / 2);
               writing-mode: initial;
               transform: none;
               vertical-align: middle;
@@ -447,7 +492,7 @@ body footer {
   padding-right: $width-menu;
 
   @include lt-md {
-    padding-right: $width-menu-mobile;
+    padding-right: 0px;
   }
 }
 
