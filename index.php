@@ -84,21 +84,12 @@
       </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5 box-slide">
       <div class="container">
-        <h2 class="h-head text-center">สาระน่ารู้</h2>
-        <div class="row mt-5">
-          <div class="col-md-6">dgdsg</div>
-          <div class="col-md-6">dgdsg</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="box-slide py-5" style="background-color:#f7f7f7;">
-      <div class="container">
+        <h2 class="h-head text-center mb-4">สาระน่ารู้</h2>
         <div class="row">
           <div class="col-sm-6">
-            <h3 class="h-head">บทความ</h3>
+            <h4 class="h-head">Infographic</h3>
           </div>
           <div class="col-sm-6 d-flex align-items-center flex-wrap">
             <div class="arrow-default">
@@ -110,12 +101,127 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4">รายละเอียด</a>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-5">dgdsg</div>
+          <div class="col-md-7">dgdsg</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-multimedia box-slide py-5">
+      <div class="container">
+        <div class="mx-auto" style="max-width: 900px;">
+          <div class="row">
+            <div class="col-sm-6">
+              <h4 class="h-head">สื่อมัลติมีเดีย</h3>
+            </div>
+            <div class="col-sm-6 d-flex align-items-center flex-wrap">
+              <div class="arrow-default">
+                <div class="o-prev">
+                  <span class="material-symbols-outlined">trending_flat</span>
+                </div>
+                <div class="owl-dots"></div>
+                <div class="o-next">
+                  <span class="material-symbols-outlined">trending_flat</span>
+                </div>
+              </div>
+              <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
+            </div>
+          </div>
+
+          <div class="owl-carousel box-list-multimedia py-3" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
+            data-itemSlide-mobile="1" data-dots="false">
+
+            <div class="card item col-12">
+              <div class="card-body">
+                <iframe src="https://www.youtube.com/embed/oy18DJwy5lI?si=FofLcS6uxU9CuV84" allowfullscreen></iframe>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                  </div>
+                  <h5 class="text-line2">"หัวใจ ชุมชน สำเร็จ" ณ ดอนหอยหลอด จ.สมุทรสงคราม</h5>
+                </div>
+              </div>
+            </div>
+            <div class="card item col-12">
+              <div class="card-body">
+                <video controls source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                  </div>
+                  <h5 class="text-line2">"หัวใจ ชุมชน สำเร็จ" ณ ดอนหอยหลอด จ.สมุทรสงคราม</h5>
+                </div>
+              </div>
+            </div>
+            <div class="card item col-12">
+              <div class="card-body">
+                <a href="#">
+                  <div class="img">
+                    <img src="https://via.placeholder.com/800x350" alt="">
+                  </div>
+                </a>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                  </div>
+                  <h4 class="text-line2">"หัวใจ ชุมชน สำเร็จ" ณ ดอนหอยหลอด จ.สมุทรสงคราม</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-slide pt-5 pb-3" style="background-color:#f7f7f7;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4 class="h-head">บทความ</h3>
+          </div>
+          <div class="col-sm-6 d-flex align-items-center flex-wrap">
+            <div class="arrow-default">
+              <div class="o-prev">
+                <span class="material-symbols-outlined">trending_flat</span>
+              </div>
+              <div class="owl-dots"></div>
+              <div class="o-next">
+                <span class="material-symbols-outlined">trending_flat</span>
+              </div>
+            </div>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
           </div>
         </div>
 
-        <div class="owl-carousel box-list-article py-3" data-itemSlide-pc="2" data-itemSlide-Tablet="2"
-          data-itemSlide-mobile="1"  data-dots="false">
+        <div class="owl-carousel box-list-article py-3" data-itemSlide-pc="2" data-itemSlide-Tablet="1"
+          data-itemSlide-mobile="1" data-dots="false">
 
           <div class="card item col-12">
             <div class="card-body">
@@ -124,7 +230,21 @@
                   <img src="public/images/img-article.jpg" alt="">
                 </div>
                 <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line1">"นก" อพยพ</h5>
                   <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
                     น้ำกลายเป็นน้ำแข็ง
                     พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
@@ -137,10 +257,24 @@
             <div class="card-body">
               <a href="#">
                 <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
+                  <img src="https://via.placeholder.com/600x400" alt="">
                 </div>
                 <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line1">"นก" อพยพ</h5>
                   <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
                 </div>
               </a>
@@ -150,10 +284,24 @@
             <div class="card-body">
               <a href="#">
                 <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
+                  <img src="https://via.placeholder.com/600x500" alt="">
                 </div>
                 <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line1">"นก" อพยพ</h5>
                   <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
                     น้ำกลายเป็นน้ำแข็ง
                     พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
@@ -171,7 +319,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h3 class="h-head">กิจกรรม</h3>
+            <h4 class="h-head">กิจกรรม</h3>
           </div>
           <div class="col-sm-6 d-flex align-items-center flex-wrap">
             <div class="arrow-default">
@@ -183,95 +331,100 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4">รายละเอียด</a>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
           </div>
         </div>
 
-        <div class="owl-carousel box-list-article py-3" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
+        <div class="owl-carousel box-list-activity" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
           data-itemSlide-mobile="1" data-dots="false">
 
           <div class="card item col-12">
             <div class="card-body">
               <a href="#">
                 <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
-                </div>
-                <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
-                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
-                    น้ำกลายเป็นน้ำแข็ง
-                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
-                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
+                  <img src="https://via.placeholder.com/800x350" alt="">
                 </div>
               </a>
+              <div class="box-text">
+                <div class="b-text">
+                  <h6 class="mb-2">ข่าวและกิจกรรม</h6>
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h4 class="text-line2">ลงพื้นที่ติดตามการดำเนินงานถ่ายทำสารคดี</h4>
+                  <p class="text-line3">ณ วันที่ 9 มิถุนายน 2561 BEDO ได้ดำเนินการตามเป้าหมายเพื่อให้บรรสุวัตถุประสงค์
+                    ในการพัฒนาฐานข้อมูลความหลากหลายทางชีวภาพ ผ่านกระบวนการมีส่วนร่วมอย่างเต็มรูปแบบ ในการสร้างความรู้และ
+                    ความเข้าใจเกี่ยวกับในการสร้างความรู้และ ความเข้าใจเกี่ยวกับ</p>
+                  <button type="button" class="btn btn-primary btn-sm px-5">อ่านต่อ</button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="card item col-12">
             <div class="card-body">
               <a href="#">
                 <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
-                </div>
-                <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
-                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
+                  <img src="https://via.placeholder.com/800x400" alt="">
                 </div>
               </a>
-            </div>
-          </div>
-          <div class="card item col-12">
-            <div class="card-body">
-              <a href="#">
-                <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
+              <div class="box-text">
+                <div class="b-text">
+                  <h6 class="mb-2">ข่าวและกิจกรรม</h6>
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h4 class="text-line2">"ลงพื้นที่ติดตามการดำเนินงานถ่ายทำสารคดี</h4>
+                  <p class="text-line3">ณ วันที่ 9 มิถุนายน 2561 BEDO ได้ดำเนินการตามเป้าหมายเพื่อให้บรรสุวัตถุประสงค์
+                    ในการพัฒนาฐานข้อมูลความหลากหลายทางชีวภาพ ผ่านกระบวนการมีส่วนร่วมอย่างเต็มรูปแบบ ในการสร้างความรู้และ
+                    ความเข้าใจเกี่ยวกับในการสร้างความรู้และ ความเข้าใจเกี่ยวกับ</p>
+                  <button type="button" class="btn btn-primary btn-sm px-5">อ่านต่อ</button>
                 </div>
-                <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
-                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card item col-12">
-            <div class="card-body">
-              <a href="#">
-                <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
-                </div>
-                <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
-                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card item col-12">
-            <div class="card-body">
-              <a href="#">
-                <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
-                </div>
-                <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
-                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card item col-12">
-            <div class="card-body">
-              <a href="#">
-                <div class="img">
-                  <img src="public/images/img-article.jpg" alt="">
-                </div>
-                <div class="box-text">
-                  <h6 class="h-head  text-line1">"นก" อพยพ</h6>
-                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
-                </div>
-              </a>
+              </div>
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 box-Service-channels">
+      <div class="container">
+        <h2 class="h-head text-center text-white">ช่องทางบริการความรู้เพิ่มเติม</h2>
+        <div class="box-social">
+          <a href="#" class="text-white" target="_blank">
+            <img src="public/images/icon-fb.png" alt="">
+            BEDO Thailand
+          </a>
+          <a href="#" class="text-white" target="_blank">
+            <img src="public/images/icon-li.png" alt="">
+            BEDO Thailand
+          </a>
+          <a href="#" class="text-white" target="_blank">
+            <img src="public/images/icon-yu.png" alt="">
+            @thaibiodiversity
+          </a>
         </div>
       </div>
     </section>

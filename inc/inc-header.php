@@ -15,17 +15,17 @@
         </div>
       </div>
       <div class="mt-auto" id="bar-right">
-        <div class="b-questionnaire my-3">
+        <div class="b-questionnaire my-2 my-md-3">
           <button data-fancybox="" data-src="#questionnaire">
             <img src="public/images/icon-questionnaire.png">
           </button>
         </div>
-        <div class="b-fontsize my-3">
+        <div class="b-fontsize my-2 my-md-3">
           <img src="public/images/icon-fontsize.png" data-font-size="13" class="size-small">
           <img src="public/images/icon-fontsize.png" class="size-medium active">
           <img src="public/images/icon-fontsize.png" data-font-size="19" class="size-large">
         </div>
-        <div class="b-language my-3">
+        <div class="b-language my-2 my-md-3">
           <a href="#" data-language="th">
             <img src="public/images/th.png">
           </a>

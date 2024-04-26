@@ -32,7 +32,59 @@ footer {
       .material-symbols-outlined {
         padding: 1px;
         font-size: 22px;
+        margin-right: 5px;
       }
+    }
+  }
+
+  .box-sitemap {
+    $colorsitemap : #40ca84;
+
+    .b-container {
+      margin: auto;
+      max-width: 1000px;
+    }
+
+    button[data-target="#sitemap"] {
+      position: relative;
+      color: $colorsitemap;
+      margin-top: -37px;
+      margin-bottom: 20px;
+
+      &::after {
+        content: "";
+        transform: rotateX(0deg) rotate(45deg) translateY(-50%);
+        transform-origin: center;
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-right-color: $colorsitemap;
+        border-bottom-color: $colorsitemap;
+        width: 10px;
+        height: 10px;
+        transition: .5s;
+        margin: 0px;
+        display: inline-block;
+
+        &.collapsed {
+          transform: rotateX(-180deg) rotate(45deg) translateY(-50%) !important;
+        }
+      }
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-inline-start: 25px;
+
+      li {
+        a {
+          margin: 0px;
+          color: #fff;
+          vertical-align: top;
+        }
+      }
+    }
+
+    .text-primary {
+      color: $colorsitemap !important;
     }
   }
 

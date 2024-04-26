@@ -21,6 +21,7 @@ header {
   a.navbar-brand {
     padding: 0px;
     margin: 6px 0px;
+    position: absolute;
 
     img.img-logo {
       height: 50px;
@@ -33,6 +34,7 @@ header {
     }
 
     @include lt-md {
+      position: relative;
       img.img-logo {
         height: 40px;
       }
@@ -48,7 +50,8 @@ header {
     justify-content: center;
 
     @include lt-md {
-      width: $width-menu-mobile;
+      width: 0px;
+      margin-right: calc($width-menu-mobile / 2);
     }
 
     @mixin flex-column {
@@ -66,6 +69,7 @@ header {
 
       @include lt-md {
         background-color: transparent;
+        width: 0px;
       }
 
       #bar-right {
@@ -184,7 +188,7 @@ header {
       right: 100%;
       background-color: rgba(3, 37, 21, .78);
       color: #fff;
-      width: 400px;
+      width: 360px;
       max-width: calc(100vw - $width-menu);
       padding: 10px 26px;
       text-align: end;
@@ -204,11 +208,12 @@ header {
         bottom: 0px;
         border-right: $width-menu-mobile solid $background-color2;
         background-color: rgb(3 37 21 / 92%);
+        margin-right: ($width-menu-mobile / 2) * -1;
       }
 
       &:not(.show) {
         visibility: hidden;
-        right: -400px;
+        right: -360px;
         opacity: 0;
       }
 
@@ -307,6 +312,9 @@ header {
 
         img {
           width: 45px;
+          @include lt-md {
+            width: 30px;
+          }
         }
 
         @include lt-md {

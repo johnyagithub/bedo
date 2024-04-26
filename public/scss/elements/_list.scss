@@ -1,3 +1,18 @@
+.owl-carousel {
+
+  &.box-list-article {
+    width: calc(100% + 50px);
+    margin-left: -25px;
+    margin-right: -25px;
+
+    @include lt-md {
+      width: calc(100% + 30px);
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+}
+
 .box-list-article {
   .owl-stage {
     display: flex;
@@ -37,17 +52,18 @@
       .img {
         overflow: hidden;
         position: relative;
-      }
 
-      img {
-        display: block;
-        width: 100%;
-        transition: transform .8s ease;
-        aspect-ratio: 100/67;
-      }
+        img {
+          display: block;
+          width: 100%;
+          transition: transform .8s ease;
+          aspect-ratio: 100/67;
+          object-fit: cover;
+        }
 
-      &:hover img {
-        transform: scale(1.1);
+        &:hover img {
+          transform: scale(1.1);
+        }
       }
 
       .box-text {
@@ -56,13 +72,8 @@
         h6 {
           margin-bottom: 17px;
         }
-
-        span {
-          display: block;
-          color: #757575;
-          width: 100%;
-        }
       }
+
     }
 
     .card-footer {
@@ -74,5 +85,170 @@
 
   a {
     color: #333333;
+  }
+}
+
+.owl-carousel {
+  &.box-list-activity {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+
+    @include lt-md {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+}
+
+.box-list-activity {
+  .owl-stage-outer {
+    padding: 30px 0px;
+
+    .card {
+      border: none;
+
+      .card-body {
+        padding: 0px;
+        border-radius: 0px;
+        background-color: #fff;
+
+        a {
+          display: block;
+        }
+
+        .img {
+          overflow: hidden;
+          position: relative;
+          width: 60%;
+          margin-left: auto;
+          border-radius: $border-radius;
+          transition: 1s;
+          opacity: 0;
+
+          @include lt-md {
+            width: 100%;
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            transition: transform .8s ease;
+            aspect-ratio: 100/62;
+            object-fit: cover;
+
+            @include md {
+              aspect-ratio: 100 / 83;
+            }
+
+            @include xs {
+              aspect-ratio: 100 / 67;
+            }
+          }
+
+          &:hover img {
+            transform: scale(1.1);
+          }
+        }
+
+        .box-text {
+          position: absolute;
+          z-index: 1;
+          left: 60px;
+          transition: .8s;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 50%;
+          color: #fff;
+
+          @include lt-md {
+            width: calc(100% - 15px);
+            position: relative;
+            margin-top: -30px;
+            top: auto;
+            left: 50% !important;
+            transform: translateX(-50%);
+          }
+
+          .b-text {
+            background-color: rgb(0 0 0 / 50%);
+            padding: 30px;
+            border-radius: $border-radius;
+            overflow: hidden;
+
+            &::after {
+              content: "";
+              background-color: var(--color-primary);
+              position: absolute;
+              inset: 0;
+              z-index: -1;
+              opacity: .6;
+              border-radius: $border-radius;
+            }
+
+            .box-information {
+              color: #fff;
+            }
+
+            h6 {
+              margin-bottom: 17px;
+            }
+
+            .btn-primary {
+              background-color: #0d8953 !important;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+
+    .owl-item {
+      &.active {
+        .box-text {
+          left: 15px;
+        }
+
+        .img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.box-list-multimedia {
+  .owl-stage-outer {
+    overflow: visible !important;
+
+    .card {
+      background-color: transparent;
+      border: none;
+
+      iframe,
+      video,
+      img {
+        width: 100%;
+        aspect-ratio: 100/55;
+        background-color: #000;
+      }
+
+      .box-text {
+        margin-top: 15px;
+
+        h5 {
+          width: calc(45% + 10vw);
+
+          @include sm {
+            width: calc(62% + 10vw);
+          }
+
+          @include xs {
+            width: calc(65% + 10vw);
+          }
+        }
+      }
+    }
   }
 }
