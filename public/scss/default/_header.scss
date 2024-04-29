@@ -35,6 +35,7 @@ header {
 
     @include lt-md {
       position: relative;
+
       img.img-logo {
         height: 40px;
       }
@@ -312,6 +313,7 @@ header {
 
         img {
           width: 45px;
+
           @include lt-md {
             width: 30px;
           }
@@ -383,8 +385,8 @@ header {
   }
 
   table {
-    width: 800px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     margin: 25px 0px;
 
     thead {
@@ -415,12 +417,14 @@ header {
           }
 
           @include xs {
-            -ms-writing-mode: tb-rl;
-            -webkit-writing-mode: vertical-rl;
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            white-space: nowrap;
-            vertical-align: top;
+            >span {
+              -ms-writing-mode: tb-rl;
+              -webkit-writing-mode: vertical-rl;
+              writing-mode: vertical-rl;
+              transform: rotate(180deg);
+              white-space: nowrap;
+              vertical-align: top;
+            }
           }
         }
 

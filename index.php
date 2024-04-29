@@ -84,14 +84,14 @@
       </div>
     </section>
 
-    <section class="py-5 box-slide">
+    <section class="pt-5 pb-2 box-slide">
       <div class="container">
         <h2 class="h-head text-center mb-4">สาระน่ารู้</h2>
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-6">
             <h4 class="h-head">Infographic</h3>
           </div>
-          <div class="col-sm-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -101,43 +101,211 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-md-5">dgdsg</div>
-          <div class="col-md-7">dgdsg</div>
+        <div class="row my-4">
+          <div class="col-md-5 d-none d-md-block">
+            <div class="box-list-interesting row">
+              <div class="card col-12">
+                <div class="card-body">
+                  <a href="#">
+                    <div class="img">
+                      <img src="public/images/img-interesting.jpg" alt="">
+                    </div>
+                    <div class="box-text">
+                      <div class="box-information">
+                        <div class="b-calendar mr-auto">
+                          <span class="material-symbols-outlined">calendar_month</span>
+                          18 มกราคม 2564
+                        </div>
+                        <div class="b-visibility ml-3">
+                          <span class="material-symbols-outlined">visibility</span>
+                          596
+                        </div>
+                      </div>
+                      <h5 class="text-line2">พันธุ์ไม้ป่าชายเลน</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="owl-carousel box-list-interesting" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
+              data-itemSlide-mobile="1" data-dots="false">
+
+              <div class="item">
+                <div class="b-list">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-4 img">
+                        <img src="public/images/img-interesting.jpg" alt="">
+                      </div>
+                      <div class="col-8 box-text">
+                        <div class="box-information">
+                          <div class="b-calendar mr-auto">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            18 มกราคม 2564
+                          </div>
+                          <div class="b-visibility ml-3">
+                            <span class="material-symbols-outlined">visibility</span>
+                            596
+                          </div>
+                        </div>
+                        <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="b-list">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-4 img">
+                        <img src="public/images/img-interesting.jpg" alt="">
+                      </div>
+                      <div class="col-8 box-text">
+                        <div class="box-information">
+                          <div class="b-calendar mr-auto">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            18 มกราคม 2564
+                          </div>
+                          <div class="b-visibility ml-3">
+                            <span class="material-symbols-outlined">visibility</span>
+                            596
+                          </div>
+                        </div>
+                        <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="b-list">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-4 img">
+                        <img src="public/images/img-interesting.jpg" alt="">
+                      </div>
+                      <div class="col-8 box-text">
+                        <div class="box-information">
+                          <div class="b-calendar mr-auto">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            18 มกราคม 2564
+                          </div>
+                          <div class="b-visibility ml-3">
+                            <span class="material-symbols-outlined">visibility</span>
+                            596
+                          </div>
+                        </div>
+                        <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="b-list">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-4 img">
+                        <img src="public/images/img-interesting.jpg" alt="">
+                      </div>
+                      <div class="col-8 box-text">
+                        <div class="box-information">
+                          <div class="b-calendar mr-auto">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            18 มกราคม 2564
+                          </div>
+                          <div class="b-visibility ml-3">
+                            <span class="material-symbols-outlined">visibility</span>
+                            596
+                          </div>
+                        </div>
+                        <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="b-list">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-4 img">
+                        <img src="public/images/img-interesting.jpg" alt="">
+                      </div>
+                      <div class="col-8 box-text">
+                        <div class="box-information">
+                          <div class="b-calendar mr-auto">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            18 มกราคม 2564
+                          </div>
+                          <div class="b-visibility ml-3">
+                            <span class="material-symbols-outlined">visibility</span>
+                            596
+                          </div>
+                        </div>
+                        <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="b-list">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-4 img">
+                        <img src="public/images/img-interesting.jpg" alt="">
+                      </div>
+                      <div class="col-8 box-text">
+                        <div class="box-information">
+                          <div class="b-calendar mr-auto">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            18 มกราคม 2564
+                          </div>
+                          <div class="b-visibility ml-3">
+                            <span class="material-symbols-outlined">visibility</span>
+                            596
+                          </div>
+                        </div>
+                        <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
         </div>
       </div>
     </section>
 
-    <section class="box-multimedia box-slide py-5">
+    <section class="box-multimedia py-5">
       <div class="container">
-        <div class="mx-auto" style="max-width: 900px;">
-          <div class="row">
-            <div class="col-sm-6">
-              <h4 class="h-head">สื่อมัลติมีเดีย</h3>
-            </div>
-            <div class="col-sm-6 d-flex align-items-center flex-wrap">
-              <div class="arrow-default">
-                <div class="o-prev">
-                  <span class="material-symbols-outlined">trending_flat</span>
-                </div>
-                <div class="owl-dots"></div>
-                <div class="o-next">
-                  <span class="material-symbols-outlined">trending_flat</span>
-                </div>
-              </div>
-              <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
-            </div>
+        <div class="row">
+          <div class=" col-6 offset-xl-1 col-xl-5">
+            <h4 class="h-head">สื่อมัลติมีเดีย</h3>
           </div>
+          <div class="col-6 d-flex align-items-center flex-wrap">
+            <div class="arrow-default">
+              <div class="o-prev">
+                <span class="material-symbols-outlined">trending_flat</span>
+              </div>
+              <div class="owl-dots"></div>
+              <div class="o-next">
+                <span class="material-symbols-outlined">trending_flat</span>
+              </div>
+            </div>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+          </div>
+        </div>
+        <div class="mx-auto" style="max-width: 900px;">
 
-          <div class="owl-carousel box-list-multimedia py-3" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
-            data-itemSlide-mobile="1" data-dots="false">
+          <div class="owl-carousel box-list-multimedia pt-3" data-dots="false">
 
             <div class="card item col-12">
               <div class="card-body">
-                <iframe src="https://www.youtube.com/embed/oy18DJwy5lI?si=FofLcS6uxU9CuV84" allowfullscreen></iframe>
+                <iframe data-type="youtube" src="https://www.youtube.com/embed/oy18DJwy5lI?enablejsapi=1"
+                  allowfullscreen></iframe>
                 <div class="box-text">
                   <div class="box-information">
                     <div class="b-calendar mr-auto">
@@ -155,7 +323,8 @@
             </div>
             <div class="card item col-12">
               <div class="card-body">
-                <video controls source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <video data-type="video" controls source src="https://www.w3schools.com/html/mov_bbb.mp4"
+                  type="video/mp4">
                 </video>
                 <div class="box-text">
                   <div class="box-information">
@@ -197,16 +366,18 @@
 
           </div>
         </div>
+
+        <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
       </div>
     </section>
 
-    <section class="box-slide pt-5 pb-3" style="background-color:#f7f7f7;">
+    <section class="box-slide py-5" style="background-color:#f7f7f7;">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-6">
             <h4 class="h-head">บทความ</h3>
           </div>
-          <div class="col-sm-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -216,11 +387,11 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
 
-        <div class="owl-carousel box-list-article py-3" data-itemSlide-pc="2" data-itemSlide-Tablet="1"
+        <div class="owl-carousel box-list-article" data-itemSlide-pc="2" data-itemSlide-Tablet="1"
           data-itemSlide-mobile="1" data-dots="false">
 
           <div class="card item col-12">
@@ -312,16 +483,17 @@
           </div>
 
         </div>
+        <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
       </div>
     </section>
 
     <section class="box-slide py-5">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-6">
             <h4 class="h-head">กิจกรรม</h3>
           </div>
-          <div class="col-sm-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -331,7 +503,7 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
+            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
 
@@ -406,6 +578,8 @@
           </div>
 
         </div>
+
+        <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
       </div>
     </section>
 

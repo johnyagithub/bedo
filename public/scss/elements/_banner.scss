@@ -210,27 +210,16 @@
     }
 
     .owl-dots {
-      margin: 5px auto;
       position: absolute;
       bottom: 10px;
       left: 50%;
       transform: translate(-50%, -50%);
 
       .owl-dot {
-        margin: 2px 5px;
-        border-radius: 50%;
-        background-color: #ffffff;
-        transition: .5s;
-        aspect-ratio: 1;
         border: 1px solid #ffffff;
-        padding: 0px;
-        background-clip: content-box;
-        width: 11px;
-        outline: none;
 
         &.active {
-          padding: 2px;
-          width: 15px;
+          transform: scale(1.3);
         }
       }
     }

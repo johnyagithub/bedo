@@ -10,7 +10,7 @@
 <link rel="icon" href="public/images/favicon.png" type="image/gif" sizes="16x16">
 
 <!-- begin content share -->
-<meta property="og:title" content="mediviss">
+<meta property="og:title" content="bedo">
 <meta property="og:type" content="website">
 <meta property="og:url" content="">
 <meta property="og:image" content="">
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="">
 <meta name="twitter:site" content="">
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="mediviss">
+<meta name="twitter:title" content="bedo">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
 <!-- end content share -->

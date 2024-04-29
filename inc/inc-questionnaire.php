@@ -5,11 +5,11 @@
       <thead>
         <tr>
           <th>ระดับวามพึงพอใจ</th>
-          <th>5 = มากที่สุด</th>
-          <th>4 = มาก</th>
-          <th>3 = ปานกลาง</th>
-          <th>2 = น้อย</th>
-          <th>1 = น้อยที่สุด</th>
+          <th><span>5 = มากที่สุด</span></th>
+          <th><span>4 = มาก</span></th>
+          <th><span>3 = ปานกลาง</span></th>
+          <th><span>2 = น้อย</span></th>
+          <th><span>1 = น้อยที่สุด</span></th>
         </tr>
         <tr>
           <td></td>

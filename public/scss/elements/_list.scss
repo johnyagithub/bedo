@@ -13,6 +13,126 @@
   }
 }
 
+
+.box-list-interesting {
+  &.owl-carousel {
+    padding-left: 15px;
+
+    @include lt-md {
+      padding-left: 0px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: calc(100% - 40px);
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0px;
+      border-left: 1px solid #dbdbdb;
+
+      @include lt-md {
+        display: none;
+      }
+    }
+  }
+
+  .owl-stage {
+    display: flex;
+    flex-flow: wrap;
+
+    .owl-item.active+.active {
+      .card::before {
+        display: block;
+      }
+    }
+  }
+
+  .card {
+    padding: 25px;
+    background-clip: content-box;
+    height: 100%;
+    border-radius: 0px;
+    border: 0px;
+    overflow: hidden;
+
+    .card-body {
+      padding: 0px;
+      border-radius: 0px;
+      background-color: #fff;
+
+      .img {
+        img {
+          margin: auto;
+          margin-bottom: 20px;
+          display: block;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .card-footer {
+    padding: 15px;
+    border: 0;
+    display: block;
+  }
+
+  a {
+    color: #333333;
+    text-decoration: none !important;
+  }
+
+  .b-list {
+    padding: 20px 10px;
+    border-top: 1px solid #dbdbdb;
+
+    @include gt-lg {
+      padding-left: 50px;
+      padding-right: 20px;
+    }
+
+    &:first-child {
+      border-top: none;
+    }
+
+    .img {
+      overflow: hidden;
+      position: relative;
+
+      img {
+        display: block;
+        width: 100%;
+        transition: transform .8s ease;
+        aspect-ratio: 100/130;
+        object-fit: cover;
+      }
+
+      &:hover img {
+        transform: scale(1.1);
+      }
+
+      .box-text {
+        padding: 20px 15px 0px 15px;
+
+        h6 {
+          margin-bottom: 17px;
+        }
+      }
+    }
+  }
+}
+
+.owl-carousel {
+  @include lt-md {
+    &.box-list-interesting {
+      width: calc(100% + 20px);
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  }
+}
+
 .box-list-article {
   .owl-stage {
     display: flex;
@@ -163,7 +283,7 @@
           color: #fff;
 
           @include lt-md {
-            width: calc(100% - 15px);
+            width: 100%;
             position: relative;
             margin-top: -30px;
             top: auto;
@@ -177,6 +297,10 @@
             border-radius: $border-radius;
             overflow: hidden;
 
+            @include lt-md {
+              background-color: transparent;
+            }
+
             &::after {
               content: "";
               background-color: var(--color-primary);
@@ -185,6 +309,11 @@
               z-index: -1;
               opacity: .6;
               border-radius: $border-radius;
+
+              @include lt-md {
+                background: linear-gradient(to bottom, #4d7462 0%, #30473d 100%);
+                opacity: 1;
+              }
             }
 
             .box-information {

@@ -59,6 +59,7 @@
 
 .box-multimedia {
   position: relative;
+  overflow: hidden;
 
   &::before {
     content: "";
@@ -66,13 +67,91 @@
     position: absolute;
     inset: 0 auto 4% 0;
     width: 60%;
+    z-index: -1;
 
     @include sm {
       width: 72%;
     }
 
     @include xs {
-      width: 80%;
+      width: 100%;
+      inset: 0;
+    }
+  }
+
+  .box-list-multimedia {
+    .owl-nav {
+      button {
+        position: absolute;
+        height: calc(100% - 10px);
+        width: calc(50vw - 50%);
+        top: 0px;
+        opacity: 0;
+
+        &.owl-prev {
+          right: 100%;
+        }
+
+        &.owl-next {
+          left: 100%;
+        }
+      }
+    }
+
+    .owl-stage-outer {
+      overflow: visible !important;
+
+      .owl-item.active {
+        .card {
+          transform: scale(1);
+          transform-origin: center;
+          margin-top: 0px;
+
+          .box-text {
+            opacity: 1;
+          }
+        }
+
+        &+.owl-item {
+          .card {
+            transform-origin: left;
+          }
+        }
+      }
+
+      .card {
+        background-color: transparent;
+        border: none;
+        transform: scale(0.8);
+        transform-origin: right;
+        transition: .5s;
+        margin-top: -7px;
+
+        iframe,
+        video,
+        img {
+          width: 100%;
+          aspect-ratio: 100/55;
+          background-color: #000;
+        }
+
+        .box-text {
+          margin-top: 15px;
+          opacity: 0;
+
+          h5 {
+            width: calc(45% + 10vw);
+
+            @include sm {
+              width: calc(62% + 10vw);
+            }
+
+            @include xs {
+              width: calc(65% + 10vw);
+            }
+          }
+        }
+      }
     }
   }
 }

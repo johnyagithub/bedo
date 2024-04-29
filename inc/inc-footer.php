@@ -1,9 +1,8 @@
-<footer class="mt-auto">
+<footer class="mt-auto text-center text-md-left">
   <div class="container py-5">
     <div class="row">
-      <div class="col-xl-4 col-sm-6 py-2 px-xl-4">
-        <img src="./public/images/logo.png" class="img-logo mb-4">
-        <br>
+      <div class="col-xl-4 col-md-6 py-2 px-xl-4 order-2 order-mmd-1 order-xl-0">
+        <img src="./public/images/logo.png" class="img-logo mb-4 d-none d-md-block">
         <h6>ติดต่อกับเรา</h6>
         <ul>
           <li>
@@ -19,16 +18,17 @@
             <a href="mailto:support@arda.or.th">support@arda.or.th</a>
           </li>
         </ul>
-        <p>จำนวนการเข้าชม :<br>
+        <p>จำนวนการเข้าชม :<br class="d-none d-md-block">
           1,633,755</p>
       </div>
-      <div class="col-xl-5 col-sm-12 py-2 order-sm-1 order-xl-0">
+      <div class="col-xl-5 col-md-12 py-2 order-1 order-md-3 order-xl-0">
+        <img src="./public/images/logo.png" class="img-logo mb-4 d-block d-md-none mx-auto">
         <h5>สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ <br>(องค์การมหาชน)</h5>
-        <hr class="border-white ml-0 w-100px" style="width: 80px;">
+        <hr class="border-white ml-md-0 w-100px" style="width: 80px;">
         <p>ศูนย์ราชการเฉลิมพระเกียรติ ๘๐ พรรษา ๕ ธันวาคม ๒๕๕๐อาคารรัฐประศาสนภักดี
           เลขที่ 120 หมู่ที่ 3ถนนแจ้งวัฒนะ แขวงหุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ 10210</p>
       </div>
-      <div class="col-xl-3 col-sm-6 py-2 px-xl-4 mt-sm-5 mt-xl-0">
+      <div class="col-xl-3 col-md-6 py-2 px-xl-4 mt-sm-5 mt-xl-0 order-3 order-md-2 order-xl-0 d-none d-md-block">
         <ul>
           <li><a class="nav-link" href="#">โครงการ</a></li>
           <li><a class="nav-link" href="#">กิจกรรม</a></li>
@@ -103,10 +103,10 @@
       </div>
     </div>
     <div class="footer-bottom d-flex align-items-center">
-      <div class="container d-flex justify-content-between">
-        <p class="m-0">© สงวนลิซสิทธิ์ 2566 สำนักงานพัฒนาศรษฐกิจจากฐานชีวิภาพ (องค์การมหาชน)</p>
-        <p class="m-0"><a href="#" data-fancybox="" data-src="#cookie">นโยบายเว็บไซด์</a> | <a href="#" data-fancybox=""
-            data-src="#cookie2">นโยบายคุ้บครองผัอบูลส่วนบุคคล</a> | <a href="#" data-fancybox=""
+      <div class="container d-md-flex justify-content-between">
+        <p class="m-0 p-2">© สงวนลิซสิทธิ์ 2566 สำนักงานพัฒนาศรษฐกิจจากฐานชีวิภาพ (องค์การมหาชน)</p>
+        <p class="m-0 p-2"><a href="#" data-fancybox="" data-src="#cookie">นโยบายเว็บไซด์</a> | <a href="#"
+            data-fancybox="" data-src="#cookie2">นโยบายคุ้บครองผัอบูลส่วนบุคคล</a> | <a href="#" data-fancybox=""
             data-src="#cookie3">นโยบายความปลอดภัย</a></p>
       </div>
     </div>
