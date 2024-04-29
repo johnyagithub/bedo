@@ -199,7 +199,7 @@ header {
       align-items: start;
       flex-direction: column;
       z-index: 97;
-      transition: .5s;
+      transition: .3s;
       opacity: 1;
 
       @include lt-md {
@@ -211,6 +211,7 @@ header {
         border-right: $width-menu-mobile solid $background-color2;
         background-color: rgb(3 37 21 / 92%);
         margin-right: ($width-menu-mobile / 2) * -1;
+        transition: .5s;
       }
 
       &:not(.show) {

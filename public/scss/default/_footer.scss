@@ -41,16 +41,26 @@ footer {
     $colorsitemap : #40ca84;
     text-align: left;
 
-    .b-container {
-      margin: auto;
-      max-width: 1000px;
+    #sitemap {
+      background-color: #072e19 !important;
+
+      .b-container {
+        margin: auto;
+        max-width: 1000px;
+      }
     }
 
     button[data-target="#sitemap"] {
       position: relative;
       color: $colorsitemap;
+      background-color: #072e19 !important;
+      border: none;
       margin-top: -37px;
       margin-bottom: 20px;
+
+      &:hover {
+        background-color: #032111 !important;
+      }
 
       &::after {
         content: "";

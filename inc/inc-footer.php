@@ -104,9 +104,9 @@
     </div>
     <div class="footer-bottom d-flex align-items-center">
       <div class="container d-md-flex justify-content-between">
-        <p class="m-0 p-2">© สงวนลิซสิทธิ์ 2566 สำนักงานพัฒนาศรษฐกิจจากฐานชีวิภาพ (องค์การมหาชน)</p>
+        <p class="m-0 p-2">© สงวนลิขสิทธิ์ 2566 สำนักงานพัฒนาเศรษฐกิจจากฐานชีวิภาพ (องค์การมหาชน)</p>
         <p class="m-0 p-2"><a href="#" data-fancybox="" data-src="#cookie">นโยบายเว็บไซด์</a> | <a href="#"
-            data-fancybox="" data-src="#cookie2">นโยบายคุ้บครองผัอบูลส่วนบุคคล</a> | <a href="#" data-fancybox=""
+            data-fancybox="" data-src="#cookie2">นโยบายคุ้บครองข้อูลส่วนบุคคล</a> | <a href="#" data-fancybox=""
             data-src="#cookie3">นโยบายความปลอดภัย</a></p>
       </div>
     </div>
