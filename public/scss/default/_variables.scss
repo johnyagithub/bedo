@@ -135,17 +135,13 @@ body {
     font-size: 1.25em;
 
     @include lt-md {
-      font-size: 1em;
+      font-size: 1.15em;
     }
   }
 
   .h6,
   h6 {
     font-size: 1em;
-
-    @include lt-md {
-      font-size: 0.8em;
-    }
   }
 
   .opacity-06 {
@@ -354,7 +350,6 @@ nav[aria-label='breadcrumb'] {
 
   .breadcrumb {
     background-color: transparent;
-    margin-bottom: 0px;
     padding: 6px;
 
     @include lt-md {
@@ -384,6 +379,15 @@ nav[aria-label='breadcrumb'] {
   display: flex;
   align-items: center;
 
+  @include lt-md {
+    position: sticky;
+    left: 0px;
+    right: 0px;
+    top: 52px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
   .material-symbols-outlined {
     vertical-align: middle;
     font-size: 17px;
@@ -407,6 +411,15 @@ nav[aria-label='breadcrumb'] {
       display: flex;
       justify-content: center;
       align-items: center;
+      max-width: calc(100% - 230px);
+    }
+
+    @include lt-md {
+      padding: 10px;
+      max-width: calc(100% - 100px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }
