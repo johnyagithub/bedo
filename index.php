@@ -80,7 +80,7 @@
             <h1><span class="counter">62</span></h1>
           </div>
         </div>
-        <button type="button" class="btn btn-warning px-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</button>
+        <a href="variety.php" class="btn btn-warning px-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</a>
       </div>
     </section>
 
@@ -101,7 +101,7 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="info.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
         <div class="row my-4">
@@ -274,7 +274,7 @@
 
             </div>
           </div>
-          <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
+          <a href="info.php" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
         </div>
       </div>
     </section>
@@ -295,7 +295,7 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="multi.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
         <div class="mx-auto" style="max-width: 900px;">
@@ -367,7 +367,7 @@
           </div>
         </div>
 
-        <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
+        <a href="multi.php" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
       </div>
     </section>
 
@@ -387,7 +387,7 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="articles.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
 
@@ -483,7 +483,7 @@
           </div>
 
         </div>
-        <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
+        <a href="articles.php" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
       </div>
     </section>
 
@@ -503,7 +503,7 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="#" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="activitie.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
 
@@ -579,7 +579,7 @@
 
         </div>
 
-        <a href="#" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
+        <a href="activitie.php" class="mx-auto btn btn-outline-secondary px-4 px-xl-5 d-table d-md-none">รายละเอียด</a>
       </div>
     </section>
 
@@ -613,7 +613,7 @@
   <?php include ('./inc/inc-script.php'); ?>
   <script>
     $(function () {
-      $("#questionnaire [data-fancybox-close]").on("click", function () {
+      $("#questionnaire [data-fancybox-close],#questionnaire button[type='submit']").on("click", function () {
         localStorage.setItem('questionnaire', 'allow');
       });
       if (localStorage.getItem('questionnaire') == null) {

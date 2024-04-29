@@ -165,10 +165,10 @@
     </table>
     <div class="row justify-content-center">
       <div class="col-6 col-sm-4 col-lg-3">
-        <button class="btn btn-primary w-100" type="submit">ส่งความคิดเห็น</button>
+        <button class="btn btn-primary w-100 px-2" type="submit">ส่งความคิดเห็น</button>
       </div>
-      <div class="col-6 col-sm-4 col-lg-3">
-        <button class="btn btn-outline-primary w-100" type="button" data-fancybox-close>ไม่ส่งความคิดเห็น</button>
+      <div class="col-6 col-sm-4 col-lg-3 pl-0">
+        <button class="btn btn-outline-primary w-100 px-2" type="button" data-fancybox-close>ไม่ส่งความคิดเห็น</button>
       </div>
     </div>
   </form>

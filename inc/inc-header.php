@@ -53,16 +53,17 @@
             เกี่ยวกับโครงการ
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">สาระสำคัญ</a>
-            <a class="dropdown-item" href="#">แผนการขับเคลื่อน</a>
-            <a class="dropdown-item" href="#">ความก้าวหน้าของโครงการ</a>
+            <a class="dropdown-item" href="about.php">เกี่ยวกับโครงการ</a>
+            <a class="dropdown-item" href="about01.php">สาระสำคัญ</a>
+            <a class="dropdown-item" href="about02.php">แผนการขับเคลื่อน</a>
+            <a class="dropdown-item" href="about03.php">ความก้าวหน้าของโครงการ</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">โครงการ</a>
+          <a class="nav-link" href="project.php">โครงการ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">กิจกรรม</a>
+          <a class="nav-link" href="activitie.php">กิจกรรม</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -70,9 +71,9 @@
             สาระน่ารู้
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Infographic</a>
-            <a class="dropdown-item" href="#">สื่อมัลติมีเดีย</a>
-            <a class="dropdown-item" href="#">บทความ</a>
+            <a class="dropdown-item" href="info.php">Infographic</a>
+            <a class="dropdown-item" href="multi.php">สื่อมัลติมีเดีย</a>
+            <a class="dropdown-item" href="articles.php">บทความ</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -81,19 +82,20 @@
             ความหลากหลายทางชีวภาพ
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">พืช</a>
-            <a class="dropdown-item" href="#">สัตว์</a>
-            <a class="dropdown-item" href="#">จุลินทรีย์</a>
+            <a class="dropdown-item" href="variety.php">ความหลากหลายทางชีวภาพ</a>
+            <a class="dropdown-item" href="variety-list.php">พืช</a>
+            <a class="dropdown-item" href="variety-list.php">สัตว์</a>
+            <a class="dropdown-item" href="variety-list.php">จุลินทรีย์</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">เอกสารเผยแพร่</a>
+          <a class="nav-link" href="download.php">เอกสารเผยแพร่</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">ห้องสมุด BEDO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ติดต่อโครงการ</a>
+          <a class="nav-link" href="contactus.php">ติดต่อโครงการ</a>
         </li>
       </ul>
       <div class="box-social">

@@ -179,6 +179,7 @@ header {
 
           @include lt-md {
             width: $width-menu-mobile;
+            height: 63px;
           }
         }
       }
@@ -323,7 +324,7 @@ header {
 
         @include lt-md {
           padding-top: 12px;
-          padding-bottom: 3px;
+          padding-bottom: 10px;
         }
       }
     }

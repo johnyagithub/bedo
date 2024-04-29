@@ -30,12 +30,12 @@
       </div>
       <div class="col-xl-3 col-md-6 py-2 px-xl-4 mt-sm-5 mt-xl-0 order-3 order-md-2 order-xl-0 d-none d-md-block">
         <ul>
-          <li><a class="nav-link" href="#">โครงการ</a></li>
-          <li><a class="nav-link" href="#">กิจกรรม</a></li>
-          <li><a class="nav-link" href="#">สาระน่ารู้</a></li>
-          <li><a class="nav-link" href="#">ความหลากหลายทางชีวภาพ</a></li>
-          <li><a class="nav-link" href="#">ห้องสมุด</a></li>
-          <li><a class="nav-link" href="#">ติดต่อ</a></li>
+          <li><a class="nav-link" href="project.php">โครงการ</a></li>
+          <li><a class="nav-link" href="activitie.php">กิจกรรม</a></li>
+          <li><a class="nav-link" href="info.php">สาระน่ารู้</a></li>
+          <li><a class="nav-link" href="variety.php">ความหลากหลายทางชีวภาพ</a></li>
+          <li><a class="nav-link" href="#" target="_blank">ห้องสมุด</a></li>
+          <li><a class="nav-link" href="contactus.php">ติดต่อ</a></li>
         </ul>
       </div>
     </div>

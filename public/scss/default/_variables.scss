@@ -26,6 +26,14 @@ body {
   font-family: 'Prompt', sans-serif;
   font-weight: 100;
 
+  .form-control {
+    border-radius: calc($border-radius / 2);
+  }
+
+  button.btn[class*='btn-outline'] {
+    border-color: #ced4da;
+  }
+
   .btn {
     border-radius: calc($border-radius / 2);
   }
@@ -207,6 +215,10 @@ body {
     }
   }
 
+  .box-slide {
+    overflow: hidden;
+  }
+
   .arrow-default {
     display: flex;
     margin-left: auto;
@@ -331,6 +343,70 @@ body {
       font-size: 15px;
       margin-right: 5px;
       vertical-align: sub;
+    }
+  }
+}
+
+nav[aria-label='breadcrumb'] {
+  @include lt-md {
+    background-color: #f9f9f9;
+  }
+
+  .breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0px;
+    padding: 6px;
+
+    @include lt-md {
+      padding: 5px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .breadcrumb-item {
+      &::before {
+        content: ">" !important;
+      }
+
+      &:first-child::before {
+        display: none;
+      }
+    }
+
+    a {
+      color: #6a6a6a;
+    }
+  }
+}
+
+.box-project-name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .material-symbols-outlined {
+    vertical-align: middle;
+    font-size: 17px;
+  }
+
+  a {
+    color: #6a6a6a;
+  }
+
+  .b-project-name {
+    margin-bottom: 0px;
+    margin-left: auto;
+    color: #0a7d4c;
+    padding: 17px;
+
+    @include gt-sm {
+      position: absolute;
+      right: 60px;
+      top: 0px;
+      height: 62px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
