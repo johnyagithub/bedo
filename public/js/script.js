@@ -31,6 +31,8 @@ $(function () {
   if ($(window).width() > 1025) {
     Activitty();
   }
+
+  aos();
 });
 
 let sliderBanner = () => {
@@ -180,3 +182,11 @@ let Activitty = () => {
     $(".box-list-activity .owl-item.active .b-text").css("transform", "translate(" + l / 40 + "px, " + t / 40 + "px)");
   });
 }
+
+function aos() {
+  AOS.init({
+   once: true,
+   duration: 800,
+   easing: 'ease-in-sine',
+  });
+ }

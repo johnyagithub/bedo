@@ -3,13 +3,14 @@ $width-menu-mobile: 50px;
 $background-color2: #0b3821;
 
 header {
-  position: sticky;
+  // position: absolute;
   top: 0px;
   z-index: 99;
   width: 100%;
   padding-right: $width-menu;
 
   @include lt-md {
+    position: sticky;
     padding-right: $width-menu-mobile;
     background-color: $background-color2;
   }
@@ -21,7 +22,6 @@ header {
   a.navbar-brand {
     padding: 0px;
     margin: 6px 0px;
-    position: absolute;
 
     img.img-logo {
       height: 50px;
@@ -34,7 +34,8 @@ header {
     }
 
     @include lt-md {
-      position: relative;
+      position: relative !important;
+      margin-top: 6px !important;
 
       img.img-logo {
         height: 40px;

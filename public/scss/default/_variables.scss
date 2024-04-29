@@ -258,6 +258,7 @@ body {
   .owl-dots {
     margin: 5px auto;
     display: flex;
+    max-width: calc(100% - 72px);
 
     .owl-dot {
       margin: 2px 5px;
@@ -270,6 +271,10 @@ body {
       background-clip: content-box;
       width: 11px;
       outline: none;
+
+      @include xs {
+        margin: 2px 3px;
+      }
 
       &.active {
         padding: 2px;

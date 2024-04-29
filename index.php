@@ -5,9 +5,9 @@
 
   <?php include ('./inc/inc-meta.php'); ?>
   <style>
-    header {
-      position: fixed;
+    header a.navbar-brand {
       margin-top: 20px;
+      position: absolute;
     }
   </style>
 
@@ -61,37 +61,37 @@
 
     <section class="box-biodiversity py-5">
       <div class="container text-center">
-        <h3 class="h-head text-white">ความหลากหลายทางชัวภาพ</h3>
-        <h3 class="mt-4 opacity-06">"โครงการต้นแบบการเสริมสร้างศักยภาพ"</h3>
-        <p class="opacity-06">
+        <h3 class="h-head text-white" data-aos="fade">ความหลากหลายทางชัวภาพ</h3>
+        <h3 class="mt-4 opacity-06" data-aos="fade">"โครงการต้นแบบการเสริมสร้างศักยภาพ"</h3>
+        <p class="opacity-06" data-aos="fade">
           ขององค์กรปกครองส่วนท้องถิ่นในการป้องกันและใช้ประโยชน์ความหลากหลายทางชีวภาพอย่างยั่งยืนในภูมินิเวศของประเทศไทย
         </p>
         <div class="row list-biodiversity">
-          <div class="col-sm-4  py-3">
+          <div class="col-sm-4  py-3" data-aos="fade-up">
             <h3 class="h-head">พืช <img src="public/images/icon-plant.png"></h3>
             <h1><span class="counter">284</span></h1>
           </div>
-          <div class="col-sm-4 py-3">
+          <div class="col-sm-4 py-3" data-aos="fade-up" data-aos-delay="200">
             <h3 class="h-head">สัตว์ <img src="public/images/icon-animal.png"></h3>
             <h1><span class="counter">570</span></h1>
           </div>
-          <div class="col-sm-4 py-3">
+          <div class="col-sm-4 py-3" data-aos="fade-up" data-aos-delay="400">
             <h3 class="h-head">จุลินทรีย์ <img src="public/images/icon-microorganism.png"></h3>
             <h1><span class="counter">62</span></h1>
           </div>
         </div>
-        <button type="button" class="btn btn-warning px-4">แผนที่ความหลากหลายทางชีวภาพ</button>
+        <button type="button" class="btn btn-warning px-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</button>
       </div>
     </section>
 
     <section class="pt-5 pb-2 box-slide">
       <div class="container">
-        <h2 class="h-head text-center mb-4">สาระน่ารู้</h2>
+        <h2 class="h-head text-center mb-4" data-aos="fade">สาระน่ารู้</h2>
         <div class="row">
-          <div class="col-6">
+          <div class="col-6" data-aos="fade">
             <h4 class="h-head">Infographic</h3>
           </div>
-          <div class="col-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap" data-aos="fade">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -107,7 +107,7 @@
         <div class="row my-4">
           <div class="col-md-5 d-none d-md-block">
             <div class="box-list-interesting row">
-              <div class="card col-12">
+              <div class="card col-12" data-aos="fade-right" data-aos-delay="200">
                 <div class="card-body">
                   <a href="#">
                     <div class="img">
@@ -133,7 +133,7 @@
           </div>
           <div class="col-md-7">
             <div class="owl-carousel box-list-interesting" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
-              data-itemSlide-mobile="1" data-dots="false">
+              data-itemSlide-mobile="1" data-dots="false" data-aos="fade-left" data-aos-delay="200">
 
               <div class="item">
                 <div class="b-list">
@@ -282,10 +282,10 @@
     <section class="box-multimedia py-5">
       <div class="container">
         <div class="row">
-          <div class=" col-6 offset-xl-1 col-xl-5">
+          <div class=" col-6 offset-xl-1 col-xl-5" data-aos="fade">
             <h4 class="h-head">สื่อมัลติมีเดีย</h3>
           </div>
-          <div class="col-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap" data-aos="fade">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -300,7 +300,7 @@
         </div>
         <div class="mx-auto" style="max-width: 900px;">
 
-          <div class="owl-carousel box-list-multimedia pt-3" data-dots="false">
+          <div class="owl-carousel box-list-multimedia pt-3" data-dots="false" data-aos="fade" data-aos-delay="200">
 
             <div class="card item col-12">
               <div class="card-body">
@@ -374,10 +374,10 @@
     <section class="box-slide py-5" style="background-color:#f7f7f7;">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6" data-aos="fade">
             <h4 class="h-head">บทความ</h3>
           </div>
-          <div class="col-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap" data-aos="fade">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -392,7 +392,7 @@
         </div>
 
         <div class="owl-carousel box-list-article" data-itemSlide-pc="2" data-itemSlide-Tablet="1"
-          data-itemSlide-mobile="1" data-dots="false">
+          data-itemSlide-mobile="1" data-dots="false" data-aos="fade" data-aos-delay="200">
 
           <div class="card item col-12">
             <div class="card-body">
@@ -490,10 +490,10 @@
     <section class="box-slide py-5">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6" data-aos="fade">
             <h4 class="h-head">กิจกรรม</h3>
           </div>
-          <div class="col-6 d-flex align-items-center flex-wrap">
+          <div class="col-6 d-flex align-items-center flex-wrap" data-aos="fade">
             <div class="arrow-default">
               <div class="o-prev">
                 <span class="material-symbols-outlined">trending_flat</span>
@@ -508,7 +508,7 @@
         </div>
 
         <div class="owl-carousel box-list-activity" data-itemSlide-pc="1" data-itemSlide-Tablet="1"
-          data-itemSlide-mobile="1" data-dots="false">
+          data-itemSlide-mobile="1" data-dots="false" data-aos="fade" data-aos-delay="200">
 
           <div class="card item col-12">
             <div class="card-body">
@@ -585,17 +585,17 @@
 
     <section class="py-5 box-Service-channels">
       <div class="container">
-        <h2 class="h-head text-center text-white">ช่องทางบริการความรู้เพิ่มเติม</h2>
+        <h2 class="h-head text-center text-white" data-aos="fade">ช่องทางบริการความรู้เพิ่มเติม</h2>
         <div class="box-social">
-          <a href="#" class="text-white" target="_blank">
+          <a href="#" class="text-white" target="_blank" data-aos="fade">
             <img src="public/images/icon-fb.png" alt="">
             BEDO Thailand
           </a>
-          <a href="#" class="text-white" target="_blank">
+          <a href="#" class="text-white" target="_blank" data-aos="fade" data-aos-delay="200">
             <img src="public/images/icon-li.png" alt="">
             BEDO Thailand
           </a>
-          <a href="#" class="text-white" target="_blank">
+          <a href="#" class="text-white" target="_blank" data-aos="fade" data-aos-delay="400">
             <img src="public/images/icon-yu.png" alt="">
             @thaibiodiversity
           </a>

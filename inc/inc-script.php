@@ -9,4 +9,6 @@
 <!-- counter -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
 <script src="plugins/counter/script.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
 <!-- ================== END BASE JS ================== -->
