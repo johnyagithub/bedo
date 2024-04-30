@@ -342,27 +342,13 @@ header {
     display: flex;
     height: 100vh;
 
-    form {
-      background-color: #fff;
-      border-radius: $border-radius;
+    .group-search {
+      border-radius: 20px;
+      max-width: calc(100vw - 48px);
+      margin-bottom: 0px;
       width: 500px;
-      max-width: calc(100vw - calc($width-menu-mobile + 20px));
-      flex-flow: nowrap;
-
       button.btn {
-        border: none;
-        display: flex;
-        box-shadow: none;
-      }
-
-      .form-control {
-        border: none;
-        background-color: #fff;
-        border-radius: $border-radius;
-        box-shadow: none;
-        padding-left: 0px;
-        width: 100%;
-        padding: 0px;
+        background-color: transparent;
       }
     }
 
@@ -379,6 +365,48 @@ header {
       visibility: hidden;
       opacity: 0;
     }
+  }
+}
+
+.group-search {
+  background-color: #fff;
+  border-radius: calc($border-radius / 2);
+  width: 100%;
+  flex-flow: nowrap;
+  overflow: hidden;
+
+  @include xs {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  button.btn {
+    border: none;
+    display: flex;
+    box-shadow: none !important;
+    height: 38px;
+    border-radius: 0px;
+    background-color: #023720;
+
+    &+.form-control {
+      padding-left: 0px;
+      border-top-right-radius: calc($border-radius / 2);
+      border-bottom-right-radius: calc($border-radius / 2);
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border: none !important;
+    }
+  }
+
+  .form-control {
+    border: 1px solid #ececec;
+    background-color: #fff;
+    box-shadow: none;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: calc($border-radius / 2);
+    border-bottom-left-radius: calc($border-radius / 2);
   }
 }
 

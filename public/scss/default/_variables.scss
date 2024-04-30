@@ -368,6 +368,7 @@ nav[aria-label='breadcrumb'] {
   .breadcrumb {
     background-color: transparent;
     padding: 6px;
+    font-size: 14px;
 
     @include lt-md {
       padding: 5px;
@@ -408,6 +409,7 @@ nav[aria-label='breadcrumb'] {
       align-items: center;
       aspect-ratio: 1;
       width: 38px;
+      height: 38px;
       border-radius: 50%;
       margin: 0px 10px;
       cursor: pointer;
@@ -432,6 +434,7 @@ nav[aria-label='breadcrumb'] {
       padding: 0px;
       background-clip: content-box;
       width: 11px;
+      height: 11px;
       outline: none;
       border: 1px solid #d9d9d9;
       color: transparent;
@@ -495,4 +498,45 @@ nav[aria-label='breadcrumb'] {
       text-overflow: ellipsis;
     }
   }
+}
+
+select {
+  padding-right: 35px !important;
+  background-image: url(../images/icon-select.png) !important;
+  background-position-x: calc(100% - 10px) !important;
+  background-position-y: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px !important;
+  -webkit-appearance: none;
+  -webkit-border-radius: 2px;
+  -webkit-padding-end: 35px;
+  -webkit-padding-start: 9px;
+  -webkit-user-select: none;
+  -moz-appearance: none;
+  -moz-padding-end: 35px;
+  -moz-padding-start: 9px;
+  -moz-user-select: none;
+}
+
+table {
+  &.table-striped {
+    border: 1px solid #dee2e6;
+
+    thead {
+      tr {
+        background-color: #023821;
+        color: #fff;
+
+        th {
+          border-bottom: 0px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+section.py-5 {
+  padding-bottom: 4rem !important;
+  padding-top: 4rem !important;
 }

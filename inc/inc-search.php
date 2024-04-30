@@ -1,6 +1,6 @@
 <div id="form-search" class="collapse">
   <div class="d-flex align-items-center">
-    <form class="form-inline" action="#">
+    <form class="form-inline group-search" action="#">
       <button class="btn" type="submit">
         <span class="material-symbols-outlined">search</span>
       </button>

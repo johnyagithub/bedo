@@ -38,7 +38,19 @@
 
     <section class="box-download pb-4 pb-xl-5">
       <div class="container">
-        <h2 class="h-head mb-4 ml-1">เอกสารเผยแพร่</h2>
+        <div class="row">
+          <div class="col-md-7 d-xl-flex align-items-baseline flex-wrap">
+            <h2 class="h-head mb-3 ml-1">เอกสารเผยแพร่</h2>
+          </div>
+          <div class="col-md-5">
+            <form class="form-inline group-search" action="#">
+              <input class="form-control bg-light" type="text" placeholder="ค้นหา.." aria-label="Search" name="keyword">
+              <button class="btn text-white" type="submit">
+                <span class="material-symbols-outlined">search</span>
+              </button>
+            </form>
+          </div>
+        </div>
         <div class="box-list">
 
           <div class="b-list bg-light" data-type="pdf">
@@ -234,7 +246,7 @@
           </div>
 
         </div>
-        <nav aria-label="Page navigation example">
+        <!-- <nav aria-label="Page navigation example">
           <ul class="pagination">
             <li class="page-item">
               <a class="page-link" href="download.php?page=1" aria-label="Previous">
@@ -253,7 +265,11 @@
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> -->
+
+        <div class="d-flex justify-content-center mt-5">
+          <a href="#" class="btn btn-outline-secondary px-4 px-xl-5">โหลดเพิ่มเติม</a>
+        </div>
       </div>
     </section>
 
@@ -294,7 +310,7 @@
       <div class="form-group">
         <div class="row mx-0 pt-4 justify-content-center">
           <div class="col-6 col-sm-5 col-lg-4 pl-0">
-            <button class="btn btn-outline-primary w-100 px-2" type="reset" >ล้างข้อมูล</button>
+            <button class="btn btn-outline-primary w-100 px-2" type="reset">ล้างข้อมูล</button>
           </div>
           <div class="col-6 col-sm-5 col-lg-5 p-0">
             <button class="btn btn-primary w-100 px-2" type="button"

@@ -17,8 +17,21 @@
         flex-flow: wrap;
       }
 
-      @include lt-md {
+      @include sm {
         padding: 20px;
+      }
+
+      @include xs {
+        padding: 20px;
+        position: relative;
+
+        &::after {
+          content: "";
+          inset: 0 -25px;
+          position: absolute;
+          background-color: var(--color-light);
+          z-index: -1;
+        }
       }
 
       &[data-type="pdf"]::before,

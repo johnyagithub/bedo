@@ -38,8 +38,12 @@
 
     <section class="box-contactus pb-4 pb-xl-5">
       <div class="container">
-        <h2 class="h-head mb-4 ml-1">ติดต่อโครงการ</h2>
-        <div class="row px-5">
+        <div class="row">
+          <div class="col-md-7 d-xl-flex align-items-baseline flex-wrap">
+            <h2 class="h-head mb-3 ml-1">ติดต่อโครงการ</h2>
+          </div>
+        </div>
+        <div class="row px-sm-5">
           <div class="col-lg-7 pr-lg-5 py-4">
             <h6>สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)</h6>
             <p>ศูนย์ราชการเฉลิมพระเกียรติ ๘๐ พรรษา ๕ ธันวาคม ๒๕๕๐อาคารรัฐประศาสนภักดี เลขที่ 120 หมู่ที่ 3ถนนแจ้งวัฒนะ
