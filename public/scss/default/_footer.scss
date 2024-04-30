@@ -104,7 +104,17 @@ footer {
     min-height: $width-menu;
     color: rgb(255 255 255 / 40%);
 
-    @include lt-md {
+    @include xs {
+      font-size: 9px;
+      text-align: center;
+      padding: 15px 0px !important;
+
+      p {
+        padding: 0px !important;
+      }
+    }
+
+    @include sm {
       font-size: 12px;
     }
 

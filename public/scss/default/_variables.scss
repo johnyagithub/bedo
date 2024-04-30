@@ -4,6 +4,8 @@
   --hov-color-primary: #006b30;
   --color-secondary: #898989;
   --color-warning: #ffd602;
+  --color-light: #fafafa;
+  --hov-color-light: #f1f1f1;
 }
 
 @mixin theme($theme: var(--color-primary)) {
@@ -36,6 +38,7 @@ body {
 
   .btn {
     border-radius: calc($border-radius / 2);
+    box-shadow: none !important;
   }
 
   .bg-primary {
@@ -79,6 +82,18 @@ body {
 
   .text-warning {
     color: var(--color-warning) !important;
+  }
+
+  .btn-light {
+    @include theme($theme: var(--color-light));
+  }
+
+  .text-light {
+    color: var(--color-light) !important;
+  }
+
+  .bg-light {
+    background-color: var(--color-light) !important;
   }
 
   .card-body {
@@ -337,7 +352,9 @@ body {
   .b-share {
     span.material-symbols-outlined {
       font-size: 15px;
-      margin-right: 5px;
+      width: 15px;
+      aspect-ratio: 1;
+      margin-right: 0px;
       vertical-align: sub;
     }
   }
@@ -370,6 +387,62 @@ nav[aria-label='breadcrumb'] {
 
     a {
       color: #6a6a6a;
+    }
+  }
+}
+
+.pagination {
+  margin: 25px auto 0px auto;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+
+  li.page-item {
+
+    a.page-link[aria-label="Next"],
+    a.page-link[aria-label="Previous"] {
+      border: 1px solid #727a6b;
+      color: #727a6b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      aspect-ratio: 1;
+      width: 38px;
+      border-radius: 50%;
+      margin: 0px 10px;
+      cursor: pointer;
+      background-color: transparent;
+    }
+
+    a.page-link[aria-label="Previous"] {
+      border-color: #c5c5c5;
+      color: #c5c5c5;
+
+      span {
+        transform: rotateY(-180deg);
+      }
+    }
+
+    a.page-link {
+      margin: 2px 5px;
+      border-radius: 50%;
+      background-color: #d9d9d9;
+      transition: .5s;
+      aspect-ratio: 1;
+      padding: 0px;
+      background-clip: content-box;
+      width: 11px;
+      outline: none;
+      border: 1px solid #d9d9d9;
+      color: transparent;
+      display: flex;
+    }
+
+    &.active {
+      a.page-link {
+        padding: 2px;
+        transform: scale(1.3);
+      }
     }
   }
 }

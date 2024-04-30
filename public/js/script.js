@@ -32,6 +32,7 @@ $(function () {
     Activitty();
   }
 
+  $('[data-toggle="tooltip"]').tooltip()
   aos();
 });
 
@@ -185,8 +186,8 @@ let Activitty = () => {
 
 function aos() {
   AOS.init({
-   once: true,
-   duration: 800,
-   easing: 'ease-in-sine',
+    once: true,
+    duration: 800,
+    easing: 'ease-in-sine',
   });
- }
+}

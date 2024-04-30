@@ -1,0 +1,112 @@
+.box-download {
+  .box-list {
+    padding: 20px 3rem;
+
+    @include lt-lg {
+      padding: 5px 0px;
+    }
+
+    .b-list {
+      margin: 5px;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      transition: .5s;
+
+      @include lt-lg {
+        flex-flow: wrap;
+      }
+
+      @include lt-md {
+        padding: 20px;
+      }
+
+      &[data-type="pdf"]::before,
+      &[data-type="doc"]::before,
+      &[data-type="xls"]::before {
+        content: "";
+        background: no-repeat center;
+        background-size: contain;
+        width: 35px;
+        height: 55px;
+        display: block;
+        margin-right: 20px;
+      }
+
+      &[data-type="pdf"]::before {
+        background-image: url(../images/icon-pdf.png);
+      }
+
+      &[data-type="doc"]::before {
+        background-image: url(../images/icon-doc.png);
+      }
+
+      &[data-type="xls"]::before {
+        background-image: url(../images/icon-xls.png);
+      }
+
+      .box-text {
+        margin-right: auto;
+        font-weight: 500;
+        transition: .5s;
+
+        @include lt-lg {
+          width: calc(100% - 55px);
+          margin-bottom: 10px;
+        }
+      }
+
+      .box-information {
+        margin: 0px 20px;
+        transition: .5s;
+
+        @include lt-lg {
+          margin: 13px 0px 0px;
+        }
+
+        @include xs {
+          margin: 0px auto 10px auto;
+        }
+      }
+
+      .btn {
+        border-color: #dbdbdb;
+        transition: .5s;
+
+        @include lt-lg {
+          margin-left: auto;
+        }
+
+        @include xs {
+          margin-right: auto;
+        }
+      }
+
+      &:hover {
+        @include xl {
+          background-color: var(--hov-color-light) !important;
+          transform: scale(1.02);
+
+          .box-information,
+          .btn {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}
+
+#download {
+  width: 500px;
+
+  @include xs {
+    padding: 20px;
+  }
+
+  label {
+    i {
+      color: #f64242;
+    }
+  }
+}
