@@ -153,6 +153,11 @@
     border: 0px;
     overflow: hidden;
 
+    @include lt-md {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
     &::before {
       content: "";
       height: calc(100% - 150px);
@@ -228,6 +233,11 @@
 
     .card {
       border: none;
+
+      @include lt-md {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
 
       .card-body {
         padding: 0px;

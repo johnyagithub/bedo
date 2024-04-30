@@ -107,8 +107,20 @@
           transform-origin: center;
           margin-top: 0px;
 
-          .box-text {
-            opacity: 1;
+          @include lt-md {
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+
+          .card-body {
+            @include lt-md {
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+
+            .box-text {
+              opacity: 1;
+            }
           }
         }
 

@@ -74,10 +74,10 @@ footer {
         transition: .5s;
         margin: 0px;
         display: inline-block;
+      }
 
-        &.collapsed {
-          transform: rotateX(-180deg) rotate(45deg) translateY(-50%) !important;
-        }
+      &.collapsed::after {
+        transform: rotateX(-180deg) rotate(45deg) translateY(-50%) !important;
       }
     }
 

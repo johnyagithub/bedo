@@ -244,6 +244,8 @@ header {
             position: relative;
             font-weight: 500;
             transition: .5s;
+            box-shadow: none;
+            outline: none;
 
             &.dropdown-toggle::after {
               position: absolute;

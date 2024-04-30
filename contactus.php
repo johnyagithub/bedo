@@ -114,8 +114,11 @@
 
     <section class="box-maps pb-sm-5">
       <div class="container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15493.424856361144!2d100.554374!3d13.8776364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2832fb9398629%3A0xfaa10ca270bb9d6!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4Lie4Lix4LiS4LiZ4Liy4LmA4Lio4Lij4Lip4LiQ4LiB4Li04LiI4LiI4Liy4LiB4LiQ4Liy4LiZ4LiK4Li14Lin4Lig4Liy4LieICjguK3guIfguITguYzguIHguLLguKPguKHguKvguLLguIrguJkp!5e0!3m2!1sth!2sth!4v1714386682670!5m2!1sth!2sth" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="b-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15493.424856361144!2d100.554374!3d13.8776364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2832fb9398629%3A0xfaa10ca270bb9d6!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4Lie4Lix4LiS4LiZ4Liy4LmA4Lio4Lij4Lip4LiQ4LiB4Li04LiI4LiI4Liy4LiB4LiQ4Liy4LiZ4LiK4Li14Lin4Lig4Liy4LieICjguK3guIfguITguYzguIHguLLguKPguKHguKvguLLguIrguJkp!5e0!3m2!1sth!2sth!4v1714386682670!5m2!1sth!2sth"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </section>
 

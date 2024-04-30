@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="box-sitemap">
-    <button class="btn btn-primary px-4 d-block mx-auto" type="button" data-toggle="collapse" data-target="#sitemap"
+    <button class="btn btn-primary px-4 d-block mx-auto collapsed" type="button" data-toggle="collapse" data-target="#sitemap"
       aria-expanded="false" aria-controls="sitemap">
       แผนผังเว็บไซต์
     </button>
@@ -49,51 +49,51 @@
       <div class="b-container p-5">
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <h6 class="text-primary">เกี่ยวกับโครงการ</h6>
+            <h6 class="text-primary"><a href="about.php" class="text-primary">เกี่ยวกับโครงการ</a></h6>
             <ul>
-              <li><a href="#">สาระสำคัญ</a></li>
-              <li><a href="#">แผนการขับเคลื่อน</a></li>
-              <li><a href="#">ความก้าวหน้าของโครงการ</a></li>
+              <li><a href="about01.php">สาระสำคัญ</a></li>
+              <li><a href="about02.php">แผนการขับเคลื่อน</a></li>
+              <li><a href="about03.php">ความก้าวหน้าของโครงการ</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <a class="text-primary" href="#">
+            <a class="text-primary" href="project.php">
               <h6>โครงการ</h6>
             </a>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <a class="text-primary" href="#">
+            <a class="text-primary" href="activitie.php">
               <h6>กิจกรรม</h6>
             </a>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
             <h6 class="text-primary">สาระน่ารู้</h6>
             <ul>
-              <li><a href="#">Infographic</a></li>
-              <li><a href="#">สื่อมัลติมีเดีย</a></li>
-              <li><a href="#">บทความ</a></li>
+              <li><a href="info.php">Infographic</a></li>
+              <li><a href="multi.php">สื่อมัลติมีเดีย</a></li>
+              <li><a href="articles.php">บทความ</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <h6 class="text-primary">ความหลากหลายทางชีวภาพ</h6>
+            <h6 class="text-primary"><a href="variety.php" class="text-primary">ความหลากหลายทางชีวภาพ</a></h6>
             <ul>
-              <li><a href="#">พืช</a></li>
-              <li><a href="#">สัตว์</a></li>
-              <li><a href="#">จุลินทรีย์</a></li>
+              <li><a href="variety-list.php">พืช</a></li>
+              <li><a href="variety-list.php">สัตว์</a></li>
+              <li><a href="variety-list.php">จุลินทรีย์</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <a class="text-primary" href="#">
+            <a class="text-primary" href="download.php">
               <h6>เอกสารเผยแพร่</h6>
             </a>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <a class="text-primary" href="#">
+            <a class="text-primary" href="#" target="_blank">
               <h6>ห้องสมุด BEDO</h6>
             </a>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 my-2">
-            <a class="text-primary" href="#">
+            <a class="text-primary" href="contactus.php">
               <h6>ติดต่อโครงการ</h6>
             </a>
           </div>

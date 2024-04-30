@@ -92,7 +92,7 @@
           <a class="nav-link" href="download.php">เอกสารเผยแพร่</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ห้องสมุด BEDO</a>
+          <a class="nav-link" href="#" target="_blank">ห้องสมุด BEDO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contactus.php">ติดต่อโครงการ</a>
