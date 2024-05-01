@@ -375,7 +375,7 @@ header {
   flex-flow: nowrap;
   overflow: hidden;
 
-  @include xs {
+  @include lt-md {
     margin-bottom: 15px;
     margin-top: 10px;
   }

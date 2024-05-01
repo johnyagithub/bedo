@@ -68,19 +68,25 @@
         </p>
         <div class="row list-biodiversity">
           <div class="col-sm-4  py-3" data-aos="fade-up">
-            <h3 class="h-head">พืช <img src="public/images/icon-plant.png"></h3>
-            <h1><span class="counter">284</span></h1>
+            <a href="variety-list.php" class="text-white">
+              <h3 class="h-head">พืช <img src="public/images/icon-plant.png"></h3>
+              <h1><span class="counter">284</span></h1>
+            </a>
           </div>
           <div class="col-sm-4 py-3" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="h-head">สัตว์ <img src="public/images/icon-animal.png"></h3>
-            <h1><span class="counter">570</span></h1>
+            <a href="variety-list.php" class="text-white">
+              <h3 class="h-head">สัตว์ <img src="public/images/icon-animal.png"></h3>
+              <h1><span class="counter">570</span></h1>
+            </a>
           </div>
           <div class="col-sm-4 py-3" data-aos="fade-up" data-aos-delay="400">
-            <h3 class="h-head">จุลินทรีย์ <img src="public/images/icon-microorganism.png"></h3>
-            <h1><span class="counter">62</span></h1>
+            <a href="variety-list.php" class="text-white">
+              <h3 class="h-head">จุลินทรีย์ <img src="public/images/icon-microorganism.png"></h3>
+              <h1><span class="counter">62</span></h1>
+            </a>
           </div>
         </div>
-        <a href="variety.php" class="btn btn-warning px-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</a>
+        <a href="variety.php" class="btn btn-warning px-4 mt-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</a>
       </div>
     </section>
 
@@ -101,7 +107,8 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="info.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="info.php"
+              class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
         <div class="row my-4">
@@ -139,8 +146,10 @@
                 <div class="b-list">
                   <a href="#">
                     <div class="row">
-                      <div class="col-4 img">
-                        <img src="public/images/img-interesting.jpg" alt="">
+                      <div class="col-4">
+                        <div class="img">
+                          <img src="public/images/img-interesting.jpg" alt="">
+                        </div>
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
@@ -161,8 +170,10 @@
                 <div class="b-list">
                   <a href="#">
                     <div class="row">
-                      <div class="col-4 img">
-                        <img src="public/images/img-interesting.jpg" alt="">
+                      <div class="col-4">
+                        <div class="img">
+                          <img src="public/images/img-interesting.jpg" alt="">
+                        </div>
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
@@ -183,8 +194,10 @@
                 <div class="b-list">
                   <a href="#">
                     <div class="row">
-                      <div class="col-4 img">
-                        <img src="public/images/img-interesting.jpg" alt="">
+                      <div class="col-4">
+                        <div class="img">
+                          <img src="public/images/img-interesting.jpg" alt="">
+                        </div>
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
@@ -295,7 +308,8 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="multi.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="multi.php"
+              class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
         <div class="mx-auto" style="max-width: 900px;">
@@ -387,7 +401,8 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="articles.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="articles.php"
+              class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
 
@@ -503,7 +518,8 @@
                 <span class="material-symbols-outlined">trending_flat</span>
               </div>
             </div>
-            <a href="activitie.php" class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
+            <a href="activitie.php"
+              class="ml-auto ml-md-0 btn btn-outline-secondary px-4 px-xl-5 d-none d-md-block">รายละเอียด</a>
           </div>
         </div>
 

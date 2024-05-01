@@ -20,7 +20,8 @@
       <div class="container">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">หน้าแรก</a></li>
-          <li class="breadcrumb-item active" aria-current="page">ความหลากหลายทางชีวภาพ</li>
+          <li class="breadcrumb-item"><a href="variety.php">ความหลากหลายทางชีวภาพ</a></li>
+          <li class="breadcrumb-item active" aria-current="page">พืช</li>
         </ol>
       </div>
     </nav>
@@ -55,33 +56,350 @@
         </div>
 
         <div class="row m-0 justify-content-sm-end">
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
               <option value="">จังหวัด</option>
               <option>1</option>
               <option>2</option>
             </select>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
               <option value="">อำเภอ</option>
               <option>1</option>
               <option>2</option>
             </select>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
               <option value="">ตำบล</option>
               <option>1</option>
               <option>2</option>
             </select>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <a href="#" class="btn btn-outline-secondary w-100">
               <span class="material-symbols-outlined h5 m-0" style="vertical-align: sub;">swap_vert</span>
               ตามความนิยม
             </a>
           </div>
+        </div>
+
+        <div class="box-list row">
+
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card-body">
+              <a href="variety-detail.php">
+                <div class="img">
+                  <img src="https://via.placeholder.com/350x450" alt="">
+                </div>
+                <div class="box-text">
+                  <div class="box-information">
+                    <div class="b-calendar mr-auto">
+                      <span class="material-symbols-outlined">calendar_month</span>
+                      18 มกราคม 2564
+                    </div>
+                    <div class="b-visibility ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">visibility</span>
+                      596
+                    </div>
+                    <div class="b-share ml-2 ml-md-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
+                  </div>
+                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
         </div>
 
         <!-- <nav aria-label="Page navigation example">

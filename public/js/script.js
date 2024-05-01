@@ -31,6 +31,13 @@ $(function () {
   if ($(window).width() > 1025) {
     Activitty();
   }
+  if (screen.width < 500 ||
+    navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/webOS/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPod/i)) {
+    sliderGallery();
+  }
 
   $('[data-toggle="tooltip"]').tooltip()
   aos();
@@ -154,6 +161,18 @@ let sliderMultimedia = () => {
   });
   $('.box-multimedia .o-next').click(function () {
     $(this).closest(".box-multimedia").find(".owl-next").click();
+  });
+}
+
+let sliderGallery = () => {
+  $(".box-gallery.owl-carousel").each(function () {
+    $(this).owlCarousel({
+      items: 1,
+      margin: 0,
+      nav: false,
+      dots: false,
+      lazyLoad: true
+    });
   });
 }
 

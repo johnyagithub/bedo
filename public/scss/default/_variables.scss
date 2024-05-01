@@ -32,7 +32,7 @@ body {
     border-radius: calc($border-radius / 2);
   }
 
-  button.btn[class*='btn-outline'] {
+  .btn[class*='btn-outline'] {
     border-color: #ced4da;
   }
 
@@ -342,7 +342,6 @@ body {
 
 .box-information {
   display: flex;
-  align-items: center;
   color: #999999;
   margin-bottom: 12px;
   font-size: 0.7em;
@@ -350,13 +349,19 @@ body {
   .b-calendar,
   .b-visibility,
   .b-share {
+    display: flex;
+
     span.material-symbols-outlined {
       font-size: 15px;
       width: 15px;
       aspect-ratio: 1;
-      margin-right: 0px;
+      margin-right: 5px;
       vertical-align: sub;
     }
+
+    @include lt-lg {}
+
+    @include lg {}
   }
 }
 
@@ -461,7 +466,7 @@ nav[aria-label='breadcrumb'] {
     right: 0px;
     top: 52px;
     background-color: #fff;
-    z-index: 1;
+    z-index: 5;
   }
 
   .material-symbols-outlined {
@@ -533,10 +538,77 @@ table {
         }
       }
     }
+
+    tbody {
+      tr {
+        td {
+          padding: 17px 4%;
+
+          a {
+            color: #05592e;
+          }
+
+          &.thead {
+            color: #fff;
+            background-color: #367553;
+            border: 1px solid #2f6648;
+            padding-left: 4%;
+            padding-right: 30px;
+            white-space: nowrap;
+          }
+        }
+
+        &:nth-of-type(odd) {
+          td {
+            &.thead {
+              background-color: #347150;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
 section.py-5 {
   padding-bottom: 4rem !important;
   padding-top: 4rem !important;
+}
+
+.container {
+  &.container-lt-md-fluid {
+    @include lt-md {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      width: 100%;
+      max-width: none;
+    }
+  }
+}
+
+.box-gallery {
+  display: flex !important;
+  flex-wrap: wrap;
+
+  a {
+    &[data-fancybox] {
+      width: calc(calc(100% / 5) - 20px);
+      margin: 10px;
+
+      @include md {
+        width: calc(calc(100% / 4) - 20px);
+      }
+
+      @include lt-md {
+        margin: 0px;
+      }
+
+      img {
+        aspect-ratio: 700/450;
+        object-fit: cover;
+        width: 100%;
+        background-color: #afafaf;
+      }
+    }
+  }
 }

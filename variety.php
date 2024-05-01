@@ -52,28 +52,28 @@
           </div>
         </div>
         <div class="row m-0 justify-content-sm-end">
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
               <option value="">จังหวัด</option>
               <option>1</option>
               <option>2</option>
             </select>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
               <option value="">อำเภอ</option>
               <option>1</option>
               <option>2</option>
             </select>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
               <option value="">ตำบล</option>
               <option>1</option>
               <option>2</option>
             </select>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 p-2">
+          <div class="col-6 col-lg-3 col-xl-2 p-2">
             <a href="#" class="btn btn-outline-secondary w-100">
               <span class="material-symbols-outlined h5 m-0" style="vertical-align: sub;">swap_vert</span>
               ตามความนิยม
@@ -92,24 +92,29 @@
         </p>
         <div class="row list-biodiversity">
           <div class="col-sm-4  py-3" data-aos="fade-up">
-            <h3 class="h-head">พืช <img src="public/images/icon-plant.png"></h3>
-            <h1><span class="counter">284</span></h1>
+            <a href="variety-list.php" class="text-white">
+              <h3 class="h-head">พืช <img src="public/images/icon-plant.png"></h3>
+              <h1><span class="counter">284</span></h1>
+            </a>
           </div>
           <div class="col-sm-4 py-3" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="h-head">สัตว์ <img src="public/images/icon-animal.png"></h3>
-            <h1><span class="counter">570</span></h1>
+            <a href="variety-list.php" class="text-white">
+              <h3 class="h-head">สัตว์ <img src="public/images/icon-animal.png"></h3>
+              <h1><span class="counter">570</span></h1>
+            </a>
           </div>
           <div class="col-sm-4 py-3" data-aos="fade-up" data-aos-delay="400">
-            <h3 class="h-head">จุลินทรีย์ <img src="public/images/icon-microorganism.png"></h3>
-            <h1><span class="counter">62</span></h1>
+            <a href="variety-list.php" class="text-white">
+              <h3 class="h-head">จุลินทรีย์ <img src="public/images/icon-microorganism.png"></h3>
+              <h1><span class="counter">62</span></h1>
+            </a>
           </div>
         </div>
-        <a href="variety.php" class="btn btn-warning px-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</a>
       </div>
     </section>
 
-    <section class="py-5">
-      <div class="container">
+    <section class="pt-4 pb-1 py-md-5">
+      <div class="container container-lt-md-fluid">
         <div class="table-responsive">
           <table class="table table-striped mb-0" style="min-width: 800px;">
             <thead>
@@ -157,7 +162,6 @@
                 <td class="text-center">120</td>
                 <td class="text-center">0</td>
               </tr>
-
               <tr>
                 <td class="text-center">BEDO</td>
                 <td class="text-center align-middle" rowspan="4">สมุทรสงคราม</td>
