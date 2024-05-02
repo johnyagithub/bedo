@@ -528,7 +528,7 @@
 
           <div class="card item col-12">
             <div class="card-body">
-              <a href="#">
+              <a href="activitie-detail.php">
                 <div class="img">
                   <img src="https://via.placeholder.com/800x350" alt="">
                 </div>
@@ -554,14 +554,14 @@
                   <p class="text-line3">ณ วันที่ 9 มิถุนายน 2561 BEDO ได้ดำเนินการตามเป้าหมายเพื่อให้บรรสุวัตถุประสงค์
                     ในการพัฒนาฐานข้อมูลความหลากหลายทางชีวภาพ ผ่านกระบวนการมีส่วนร่วมอย่างเต็มรูปแบบ ในการสร้างความรู้และ
                     ความเข้าใจเกี่ยวกับในการสร้างความรู้และ ความเข้าใจเกี่ยวกับ</p>
-                  <button type="button" class="btn btn-primary btn-sm px-5">อ่านต่อ</button>
+                  <a href="activitie-detail.php" class="btn btn-primary btn-sm px-5 d-inline-block">อ่านต่อ</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="card item col-12">
             <div class="card-body">
-              <a href="#">
+              <a href="activitie-detail.php">
                 <div class="img">
                   <img src="https://via.placeholder.com/800x400" alt="">
                 </div>
@@ -587,7 +587,7 @@
                   <p class="text-line3">ณ วันที่ 9 มิถุนายน 2561 BEDO ได้ดำเนินการตามเป้าหมายเพื่อให้บรรสุวัตถุประสงค์
                     ในการพัฒนาฐานข้อมูลความหลากหลายทางชีวภาพ ผ่านกระบวนการมีส่วนร่วมอย่างเต็มรูปแบบ ในการสร้างความรู้และ
                     ความเข้าใจเกี่ยวกับในการสร้างความรู้และ ความเข้าใจเกี่ยวกับ</p>
-                  <button type="button" class="btn btn-primary btn-sm px-5">อ่านต่อ</button>
+                  <a href="activitie-detail.php" class="btn btn-primary btn-sm px-5 d-inline-block">อ่านต่อ</a>
                 </div>
               </div>
             </div>
