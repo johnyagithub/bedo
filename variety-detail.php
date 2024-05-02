@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <section class="pb-4 pb-xl-5">
+    <section class="pb-4">
       <div class="container">
         <h1 class="h-head mb-3 text-center">บทความ</h1>
         <h3 class="text-center">กล้วยไข่</h3>
@@ -160,13 +160,13 @@
               <div>แชร์</div>
               <div class="box-social d-flex border-left pl-2 ml-4">
                 <a href="#" target="_blank">
-                  <img src="public/images/icon-fb.png" class="ml-2" style="width: 40px;" alt="">
+                  <img src="public/images/icon-fb.png" class="ml-3" style="width: 35px;" alt="">
                 </a>
                 <a href="#" target="_blank">
-                  <img src="public/images/icon-li.png" class="ml-2" style="width: 40px;" alt="">
+                  <img src="public/images/icon-li.png" class="ml-3" style="width: 35px;" alt="">
                 </a>
                 <a href="#" target="_blank">
-                  <img src="public/images/icon-x.png" class="ml-2" style="width: 40px;" alt="">
+                  <img src="public/images/icon-x.png" class="ml-3" style="width: 35px;" alt="">
                 </a>
               </div>
             </div>
