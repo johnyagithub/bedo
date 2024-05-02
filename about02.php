@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <section class="pb-4">
+    <section class="section-head pb-4">
       <div class="container">
         <h1 class="h-head mb-3 text-center">เกี่ยวกับโครงการ</h1>
         <h3 class="text-center">แผนการขับเคลื่อนโครงการ</h3>
@@ -108,9 +108,6 @@
           สร้างรายได้สร้างโอกาสให้แก่ประชาชนโดยการส่งเสริมการใช้ประโยชน์ความหลากหลายทางชีวภาพและภูมิปัญญาของชุมชนและท้องถิ่นอย่างมีระบบและยั่งยืนรวมทั้งการพัฒนางานวิจัยและการรวบรวมองค์ความรู้ความหลากหลายทางชีวภาพและภูมิปัญญาของชุมชนและท้องถิ่น
         </p>
 
-        <div class="d-flex justify-content-center mt-5">
-          <a href="about01.php" class="btn btn-outline-secondary px-4 px-xl-5">รายละเอียด</a>
-        </div>
       </div>
     </section>
 

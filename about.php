@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <section class="pb-4">
+    <section class="section-head pb-4">
       <div class="container">
         <h1 class="h-head mb-3 text-center">เกี่ยวกับโครงการ</h1>
         <div class="box-information justify-content-center mt-4">

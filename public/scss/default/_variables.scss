@@ -14,6 +14,7 @@
   box-shadow: none !important;
 }
 
+$background-footer: #12432d;
 $border-radius: 20px;
 
 .material-symbols-outlined {
@@ -587,6 +588,21 @@ section.py-5 {
   padding-top: 4rem !important;
 }
 
+$container-xl-px: 1250px;
+
+header,
+footer,
+nav[aria-label=breadcrumb],
+.box-project-name {
+  >.container {
+    max-width: $container-xl-px;
+  }
+}
+
+.container.container-xl-px {
+  max-width: $container-xl-px;
+}
+
 .container {
   &.container-lt-md-fluid {
     @include lt-md {
@@ -647,5 +663,105 @@ section.py-5 {
   img {
     min-height: 300px;
     object-fit: cover;
+  }
+}
+
+.box-region {
+  background-color: #e3e3e3;
+  position: sticky;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.iframe-map {
+  height: calc(100vh - 54px);
+  background-color: #86a6be;
+}
+
+#list-map {
+  padding: 0px;
+  width: 400px;
+  background-color: transparent;
+
+  .modal-content {
+    border: none;
+    background-color: transparent;
+
+    .modal-header {
+      background-color: $background-footer;
+      color: #fff;
+      border-radius: 0px;
+      padding: 10px 20px;
+    }
+
+    .modal-body {
+      background-color: #fff;
+
+      ul {
+        list-style-type: none;
+        padding-left: 0px;
+
+        li {
+          position: relative;
+          transition: .5s;
+          padding-left: 30px;
+
+          &:hover {
+            background-color: var(--color-light);
+          }
+
+          &::after {
+            content: "";
+            background-color: var(--color-primary);
+            position: absolute;
+            left: 15px;
+            top: 16px;
+            width: 5px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+          }
+
+          a {
+            padding: 7px;
+            color: var(--color-primary);
+            text-decoration: none;
+            transition: .5s;
+            display: block;
+
+            h6 {
+              position: relative;
+              margin: 0px;
+              display: inline-block;
+
+              &::after {
+                content: "";
+                border-bottom: 1px solid var(--color-primary);
+                width: 100%;
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+              }
+            }
+
+            &:hover {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  button[data-fancybox-close].fancybox-button {
+    background-color: #fff !important;
+    color: #000 !important;
+    opacity: 1;
+  }
+}
+
+.section-head {
+  @include gt-md {
+    margin-top: -100px;
   }
 }
