@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <section class="box-variety pb-4 pb-xl-5">
+    <section class="pb-4 pb-xl-5">
       <div class="container">
         <h1 class="h-head mb-3 text-center">บทความ</h1>
         <h3 class="text-center">กล้วยไข่</h3>
@@ -99,7 +99,7 @@
               <tr>
                 <td class="thead">แหล่งอ้างอิง</td>
                 <td>
-                  <a href="https://www.thaibiodiversity.org/">https://www.thaibiodiversity.org/</a>
+                  <a href="https://www.thaibiodiversity.org/" target="_blank">https://www.thaibiodiversity.org/</a>
                 </td>
               </tr>
             </tbody>
@@ -112,34 +112,34 @@
       <div class="container container-lt-md-fluid">
         <h4 class="mx-3 mx-md-0 mb-4">แกลเลอรี่</h4>
         <div class="box-gallery owl-carousel">
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
+          <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
-            <img src="https://via.placeholder.com/700x450" alt="" />
+          <a href="https://via.placeholder.com/900x550.jpg" data-fancybox="gallery" data-caption="">
+            <img src="https://via.placeholder.com/900x550" alt="" />
+          </a>
+          <a href="https://via.placeholder.com/800x550.jpg" data-fancybox="gallery" data-caption="">
+            <img src="https://via.placeholder.com/800x550" alt="" />
+          </a>
+          <a href="https://via.placeholder.com/500x550.jpg" data-fancybox="gallery" data-caption="">
+            <img src="https://via.placeholder.com/500x550" alt="" />
           </a>
           <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
+            <img src="https://via.placeholder.com/1000x550" alt="" />
+          </a>
+          <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
+          <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
+          <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
+          <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
-            <img src="https://via.placeholder.com/700x450" alt="" />
-          </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
-            <img src="https://via.placeholder.com/700x450" alt="" />
-          </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
-            <img src="https://via.placeholder.com/700x450" alt="" />
-          </a>
-          <a href="https://via.placeholder.com/1000x550.jpg" data-fancybox="gallery" data-caption="">
+          <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
         </div>
@@ -196,7 +196,6 @@
         </div>
       </div>
     </section>
-
 
     <section class="box-variety box-slide py-5" style="background-color:#f7f7f7;">
       <div class="container container-lt-md-fluid">

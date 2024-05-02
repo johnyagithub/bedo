@@ -411,7 +411,7 @@
 
           <div class="card item col-12">
             <div class="card-body">
-              <a href="#">
+              <a href="variety-detail.php">
                 <div class="img">
                   <img src="public/images/img-article.jpg" alt="">
                 </div>
@@ -441,7 +441,7 @@
           </div>
           <div class="card item col-12">
             <div class="card-body">
-              <a href="#">
+              <a href="variety-detail.php">
                 <div class="img">
                   <img src="https://via.placeholder.com/600x400" alt="">
                 </div>
@@ -468,7 +468,7 @@
           </div>
           <div class="card item col-12">
             <div class="card-body">
-              <a href="#">
+              <a href="variety-detail.php">
                 <div class="img">
                   <img src="https://via.placeholder.com/600x500" alt="">
                 </div>

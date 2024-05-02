@@ -421,9 +421,12 @@ header {
     width: 100%;
     max-width: 800px;
     margin: 25px 0px;
+    border: 0px;
 
     thead {
       tr {
+        background-color: transparent;
+        color: #212529;
         &:first-child {
           background-color: #f3f3f3;
         }

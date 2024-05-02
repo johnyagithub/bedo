@@ -542,7 +542,7 @@ table {
     tbody {
       tr {
         td {
-          padding: 17px 4%;
+          border: 1px solid #dee2e6;
 
           a {
             color: #05592e;
@@ -555,6 +555,10 @@ table {
             padding-left: 4%;
             padding-right: 30px;
             white-space: nowrap;
+
+            &+td {
+              padding: 17px 4%;
+            }
           }
         }
 

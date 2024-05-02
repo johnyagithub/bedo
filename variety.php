@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <section class="box-variety pb-4 pb-xl-5">
+    <section class="pb-4 pb-xl-5">
       <div class="container">
         <div class="row">
           <div class="col-md-7 d-xl-flex align-items-baseline flex-wrap">
