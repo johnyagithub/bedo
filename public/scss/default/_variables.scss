@@ -28,6 +28,7 @@ body {
   flex-direction: column;
   font-family: 'Prompt', sans-serif;
   font-weight: 100;
+  word-break: break-word;
 
   .form-control {
     border-radius: calc($border-radius / 2);
@@ -763,5 +764,21 @@ nav[aria-label=breadcrumb],
 .section-head {
   @include gt-md {
     margin-top: -100px;
+  }
+}
+
+.list-style-type-xs-none {
+  @include lt-md {
+    list-style-type: none;
+  }
+}
+
+.text-editor {
+  a {
+    color: #045228;
+  }
+
+  ol {
+    padding-left: 20px;
   }
 }

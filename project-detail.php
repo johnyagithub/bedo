@@ -61,8 +61,8 @@
     <section class="pb-5">
       <div class="container container-xl-px">
         <div class="d-md-flex align-items-baseline flex-wrap mb-4">
-          <h2 class="text-center" style="color:#276c46;">จังหวัดเชียงใหม่</h2>
-          <ul class="h4 text-center pl-0 pl-md-5">
+          <h2 class="text-center text-primary">จังหวัดเชียงใหม่</h2>
+          <ul class="h4 text-center pl-0 pl-md-5 list-style-type-xs-none">
             <li>โครงการที่ 1</li>
           </ul>
         </div>
