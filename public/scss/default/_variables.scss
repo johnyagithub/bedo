@@ -360,7 +360,7 @@ body {
   font-size: 0.7em;
 
   @include xs {
-    .card & {
+    .card.col-6 & {
       font-size: 9px;
       font-weight: 500;
     }
@@ -379,7 +379,7 @@ body {
       vertical-align: sub;
 
       @include xs {
-        .card & {
+        .card.col-6 & {
           font-size: 11px;
           width: 10px;
         }

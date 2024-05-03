@@ -78,17 +78,6 @@ let navDropdown = () => {
   });
 }
 
-let iconSearch = (This) => {
-  if (This.attr('aria-expanded') == 'true') {
-    This.find('span').text('search');
-  } else {
-    This.find('span').text('close');
-    setTimeout(() => {
-      $("header #form-search form .form-control").focus();
-    }, "1000");
-  }
-}
-
 let setcookieuser = (x) => {
   $("#cookie-con-head").removeClass('show');
   if (x == 'allow') {
