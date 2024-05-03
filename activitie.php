@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <section class="box-variety pb-4 pb-xl-5">
+    <section class="box-search-head">
       <div class="container">
         <div class="row">
           <div class="col-md-7 d-xl-flex align-items-baseline flex-wrap">
@@ -51,7 +51,11 @@
             </form>
           </div>
         </div>
+      </div>
+    </section>
 
+    <section class="pb-4 pb-xl-5">
+      <div class="container">
         <div class="box-list-activity row">
 
           <div class="card col-12">
@@ -159,18 +163,18 @@
         <!-- <nav aria-label="Page navigation example">
           <ul class="pagination">
             <li class="page-item">
-              <a class="page-link" href="download.php?page=1" aria-label="Previous">
+              <a class="page-link" href="#" aria-label="Previous">
                 <span class="material-symbols-outlined">trending_flat</span>
               </a>
             </li>
-            <li class="page-item"><a class="page-link" href="download.php?page=1" data-toggle="tooltip" title="1">1</a>
+            <li class="page-item"><a class="page-link" href="#" data-toggle="tooltip" title="1">1</a>
             </li>
-            <li class="page-item active"><a class="page-link" href="download.php?page=2" data-toggle="tooltip"
+            <li class="page-item active"><a class="page-link" href="#" data-toggle="tooltip"
                 title="2">2</a></li>
-            <li class="page-item"><a class="page-link" href="download.php?page=3" data-toggle="tooltip" title="3">3</a>
+            <li class="page-item"><a class="page-link" href="#" data-toggle="tooltip" title="3">3</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="download.php?page=3" aria-label="Next">
+              <a class="page-link" href="#" aria-label="Next">
                 <span class="material-symbols-outlined">trending_flat</span>
               </a>
             </li>

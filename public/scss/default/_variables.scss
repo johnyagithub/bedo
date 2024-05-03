@@ -32,6 +32,10 @@ body {
 
   .form-control {
     border-radius: calc($border-radius / 2);
+
+    &::placeholder {
+      color: #d8d8d8;
+    }
   }
 
   .btn[class*='btn-outline'] {
@@ -604,6 +608,7 @@ $container-xl-px: 1250px;
 header,
 footer,
 nav[aria-label=breadcrumb],
+.box-search-head,
 .box-project-name {
   >.container {
     max-width: $container-xl-px;
@@ -622,6 +627,18 @@ nav[aria-label=breadcrumb],
       width: 100%;
       max-width: none;
     }
+  }
+}
+
+.img.youtube {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: url(../images/icon-youtube-play.png) no-repeat center;
+    background-size: 60px auto;
+    inset: 0;
   }
 }
 
@@ -790,5 +807,15 @@ nav[aria-label=breadcrumb],
 
   ol {
     padding-left: 20px;
+  }
+}
+
+ul.ul-style1 {
+  list-style-type: none;
+  padding-left: 30px;
+
+  li {
+    text-indent: -30px;
+    margin-bottom: 18px;
   }
 }

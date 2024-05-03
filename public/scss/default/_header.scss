@@ -163,8 +163,6 @@ header {
 
       .b-search {
         @include flex-column();
-        position: relative;
-        z-index: 1;
 
         a {
           color: #fff;
@@ -336,11 +334,34 @@ header {
     position: fixed;
     inset: 0;
     justify-content: center;
-    background-color: rgb(45 48 56 / 79%);
+    background-color: rgba(3,37,21,.78);
     background-clip: content-box;
     transition: .5s;
     display: flex;
     height: 100vh;
+
+    [data-toggle="collapse"] {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      text-decoration: none;
+
+      .material-symbols-outlined {
+        color: #fff;
+        background-color: rgba(0, 0, 0, .3);
+        border: none;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: $width-menu;
+
+        @include lt-md {
+          width: $width-menu-mobile;
+        }
+      }
+    }
 
     .group-search {
       border-radius: 20px;

@@ -20,8 +20,7 @@
       <div class="container">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">หน้าแรก</a></li>
-          <li class="breadcrumb-item"><a href="variety.php">ความหลากหลายทางชีวภาพ</a></li>
-          <li class="breadcrumb-item active" aria-current="page">พืช</li>
+          <li class="breadcrumb-item active" aria-current="page">สาระน่ารู้ (บทความ)</li>
         </ol>
       </div>
     </nav>
@@ -41,9 +40,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 d-xl-flex align-items-baseline flex-wrap">
-            <h2 class="h-head mb-3 ml-1">ความหลากหลายทางชีวภาพ </h2>
+            <h2 class="h-head mb-3 ml-1">สาระน่ารู้</h2>
             <h4 class="d-none d-xl-block mx-3">|</h4>
-            <h4 class="mb-3">พืช (284)</h4>
+            <h4 class="mb-3">บทความ (240)</h4>
           </div>
           <div class="col-md-5">
             <form class="form-inline group-search" action="#">
@@ -58,21 +57,7 @@
         <div class="row m-0 justify-content-sm-end">
           <div class="col-6 col-lg-3 col-xl-2 p-2">
             <select class="form-control">
-              <option value="">จังหวัด</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <select class="form-control">
-              <option value="">อำเภอ</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <select class="form-control">
-              <option value="">ตำบล</option>
+              <option value="">หมวดหมู่ย่อย</option>
               <option>1</option>
               <option>2</option>
             </select>
@@ -87,15 +72,15 @@
       </div>
     </section>
 
-    <section class="box-variety pb-4 pb-xl-5">
+    <section class="pb-4 pb-xl-5">
       <div class="container">
-        <div class="box-list row">
+        <div class="box-list-article row">
 
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="public/images/img-article.jpg" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -103,25 +88,29 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/600x400" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -129,25 +118,26 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/600x550" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -155,25 +145,29 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/800x400" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -181,25 +175,29 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/600x600" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -207,25 +205,26 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภู </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/600x500" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -233,25 +232,29 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/1000x400" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -259,25 +262,29 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card col-md-6">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
+                  <img src="https://via.placeholder.com/1000x500" alt="">
                 </div>
                 <div class="box-text">
                   <div class="box-information">
@@ -285,120 +292,20 @@
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share ml-3">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
                   </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
-            <div class="card-body">
-              <a href="variety-detail.php">
-                <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
-                </div>
-                <div class="box-text">
-                  <div class="box-information">
-                    <div class="b-calendar mr-auto">
-                      <span class="material-symbols-outlined">calendar_month</span>
-                      18 มกราคม 2564
-                    </div>
-                    <div class="b-visibility ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">visibility</span>
-                      596
-                    </div>
-                    <div class="b-share ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">share</span>
-                      99
-                    </div>
-                  </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
-            <div class="card-body">
-              <a href="variety-detail.php">
-                <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
-                </div>
-                <div class="box-text">
-                  <div class="box-information">
-                    <div class="b-calendar mr-auto">
-                      <span class="material-symbols-outlined">calendar_month</span>
-                      18 มกราคม 2564
-                    </div>
-                    <div class="b-visibility ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">visibility</span>
-                      596
-                    </div>
-                    <div class="b-share ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">share</span>
-                      99
-                    </div>
-                  </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
-            <div class="card-body">
-              <a href="variety-detail.php">
-                <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
-                </div>
-                <div class="box-text">
-                  <div class="box-information">
-                    <div class="b-calendar mr-auto">
-                      <span class="material-symbols-outlined">calendar_month</span>
-                      18 มกราคม 2564
-                    </div>
-                    <div class="b-visibility ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">visibility</span>
-                      596
-                    </div>
-                    <div class="b-share ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">share</span>
-                      99
-                    </div>
-                  </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="card col-6 col-md-4 col-lg-3 col-xl-3">
-            <div class="card-body">
-              <a href="variety-detail.php">
-                <div class="img">
-                  <img src="https://via.placeholder.com/350x450" alt="">
-                </div>
-                <div class="box-text">
-                  <div class="box-information">
-                    <div class="b-calendar mr-auto">
-                      <span class="material-symbols-outlined">calendar_month</span>
-                      18 มกราคม 2564
-                    </div>
-                    <div class="b-visibility ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">visibility</span>
-                      596
-                    </div>
-                    <div class="b-share ml-2 ml-md-3">
-                      <span class="material-symbols-outlined">share</span>
-                      99
-                    </div>
-                  </div>
-                  <h5 class="h-head  text-line2">กล้วยไข่</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
+                  <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
+                    น้ำกลายเป็นน้ำแข็ง
+                    พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า
+                    และอาศัยอยู่ทางซีกโลกใต้ชั่วคราวจนถึงฤดูร้อนก็จะอพยพกลับถิ่นฐานเดิม </p>
                 </div>
               </a>
             </div>

@@ -29,9 +29,9 @@
           <img class="img-banner" src="public/images/banner.jpg">
           <div class="box-text container">
             <div class="b-text text-white mr-0">
-              <h3 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
-              <h3 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h3>
-              <h3 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h3>
+              <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
+              <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
+              <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
             </div>
           </div>
         </div>
@@ -39,9 +39,9 @@
           <img class="img-banner" src="public/images/banner.jpg">
           <div class="box-text container">
             <div class="b-text text-white mr-0">
-              <h3 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
-              <h3 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h3>
-              <h3 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h3>
+              <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h2>
+              <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
+              <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
             </div>
           </div>
         </div>
@@ -49,9 +49,9 @@
           <img class="img-banner" src="public/images/banner.jpg">
           <div class="box-text container">
             <div class="b-text text-white mr-0">
-              <h3 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
-              <h3 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h3>
-              <h3 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h3>
+              <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h2>
+              <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
+              <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
             </div>
           </div>
         </div>
@@ -330,6 +330,10 @@
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
+                    </div>
                   </div>
                   <h5 class="text-line2">"หัวใจ ชุมชน สำเร็จ" ณ ดอนหอยหลอด จ.สมุทรสงคราม</h5>
                 </div>
@@ -349,6 +353,10 @@
                     <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
                     </div>
                   </div>
                   <h5 class="text-line2">"หัวใจ ชุมชน สำเร็จ" ณ ดอนหอยหลอด จ.สมุทรสงคราม</h5>
@@ -371,6 +379,10 @@
                     <div class="b-visibility ml-3">
                       <span class="material-symbols-outlined">visibility</span>
                       596
+                    </div>
+                    <div class="b-share ml-3">
+                      <span class="material-symbols-outlined">share</span>
+                      99
                     </div>
                   </div>
                   <h5 class="text-line2">"หัวใจ ชุมชน สำเร็จ" ณ ดอนหอยหลอด จ.สมุทรสงคราม</h5>
@@ -487,7 +499,7 @@
                       99
                     </div>
                   </div>
-                  <h5 class="h-head text-line1 mb-3h-head  text-line1">"นก" อพยพ</h5>
+                  <h5 class="h-head text-line1 mb-3">"นก" อพยพ</h5>
                   <p class="text-line2">สาเหตุที่นกต้องอพยพ เนื่องจากในช่วงฤดูหนาวอุณหภูมิของซีกโลกเหนือลดต่ำลง
                     น้ำกลายเป็นน้ำแข็ง
                     พืชหยุดการเจริญเติบโตอาหารลดน้อยลงและสภาพที่อยู่อาศัยไม่เหมาะสมจึงทำให้นกอพยพลงมายังซีกโลกทางใต้ที่มีแหล่งอาหารที่อุดมสมบูรณ์กว่า

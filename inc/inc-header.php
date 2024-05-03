@@ -34,8 +34,7 @@
           </a>
         </div>
         <div class="b-search">
-          <a data-toggle="collapse" href="#form-search" role="button" aria-expanded="false" aria-controls="form-search"
-            onclick="iconSearch($(this));" class="collapsed">
+          <a data-toggle="collapse" href="#form-search" role="button" aria-expanded="false" aria-controls="form-search" class="collapsed">
             <span class="material-symbols-outlined">search</span>
           </a>
         </div>

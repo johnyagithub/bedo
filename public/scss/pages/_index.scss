@@ -135,9 +135,6 @@
       }
 
       .card {
-        background-color: transparent;
-        border: none;
-
         @include xs {
           padding-left: 0px;
           padding-right: 0px;
@@ -156,17 +153,7 @@
             padding-right: 3px;
           }
 
-          iframe,
-          video,
-          img {
-            width: 100%;
-            aspect-ratio: 100/55;
-            background-color: #000;
-            display: block;
-          }
-
           .box-text {
-            margin-top: 15px;
             opacity: 0;
 
             h5 {
