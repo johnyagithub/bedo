@@ -145,10 +145,13 @@
       .card {
         background-color: transparent;
         border: none;
-        transform: scale(0.8);
-        transform-origin: right;
-        transition: .5s;
-        margin-top: -7px;
+
+        @include gt-sm {
+          transform: scale(0.8);
+          transform-origin: right;
+          transition: .5s;
+          margin-top: -7px;
+        }
 
         iframe,
         video,

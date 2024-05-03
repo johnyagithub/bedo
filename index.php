@@ -116,7 +116,7 @@
             <div class="box-list-interesting row">
               <div class="card col-12" data-aos="fade-right" data-aos-delay="200">
                 <div class="card-body">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="img">
                       <img src="public/images/img-interesting.jpg" alt="">
                     </div>
@@ -144,7 +144,7 @@
 
               <div class="item">
                 <div class="b-list">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="row">
                       <div class="col-4">
                         <div class="img">
@@ -168,7 +168,7 @@
                   </a>
                 </div>
                 <div class="b-list">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="row">
                       <div class="col-4">
                         <div class="img">
@@ -192,7 +192,7 @@
                   </a>
                 </div>
                 <div class="b-list">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="row">
                       <div class="col-4">
                         <div class="img">
@@ -218,7 +218,7 @@
               </div>
               <div class="item">
                 <div class="b-list">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="row">
                       <div class="col-4 img">
                         <img src="public/images/img-interesting.jpg" alt="">
@@ -240,7 +240,7 @@
                   </a>
                 </div>
                 <div class="b-list">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="row">
                       <div class="col-4 img">
                         <img src="public/images/img-interesting.jpg" alt="">
@@ -262,7 +262,7 @@
                   </a>
                 </div>
                 <div class="b-list">
-                  <a href="#">
+                  <a href="info-detail.php">
                     <div class="row">
                       <div class="col-4 img">
                         <img src="public/images/img-interesting.jpg" alt="">
@@ -357,7 +357,7 @@
             </div>
             <div class="card item col-12">
               <div class="card-body">
-                <a href="#">
+                <a href="multi-detail.php">
                   <div class="img">
                     <img src="https://via.placeholder.com/800x350" alt="">
                   </div>
@@ -411,7 +411,7 @@
 
           <div class="card item col-12">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
                   <img src="public/images/img-article.jpg" alt="">
                 </div>
@@ -441,7 +441,7 @@
           </div>
           <div class="card item col-12">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
                   <img src="https://via.placeholder.com/600x400" alt="">
                 </div>
@@ -468,7 +468,7 @@
           </div>
           <div class="card item col-12">
             <div class="card-body">
-              <a href="variety-detail.php">
+              <a href="articles-detail.php">
                 <div class="img">
                   <img src="https://via.placeholder.com/600x500" alt="">
                 </div>

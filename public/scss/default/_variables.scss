@@ -355,6 +355,10 @@ body {
   margin-bottom: 12px;
   font-size: 0.7em;
 
+  @include xs {
+    font-size: 0.5em;
+  }
+
   .b-calendar,
   .b-visibility,
   .b-share {
