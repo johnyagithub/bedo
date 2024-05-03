@@ -394,41 +394,6 @@
   }
 }
 
-.box-list-multimedia {
-  .owl-stage-outer {
-    overflow: visible !important;
-
-    .card {
-      background-color: transparent;
-      border: none;
-
-      iframe,
-      video,
-      img {
-        width: 100%;
-        aspect-ratio: 100/55;
-        background-color: #000;
-      }
-
-      .box-text {
-        margin-top: 15px;
-
-        h5 {
-          width: calc(45% + 10vw);
-
-          @include sm {
-            width: calc(62% + 10vw);
-          }
-
-          @include xs {
-            width: calc(65% + 10vw);
-          }
-        }
-      }
-    }
-  }
-}
-
 .box-variety {
   .box-list {
     .card {

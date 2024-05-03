@@ -356,7 +356,10 @@ body {
   font-size: 0.7em;
 
   @include xs {
-    font-size: 0.5em;
+    .card & {
+      font-size: 9px;
+      font-weight: 500;
+    }
   }
 
   .b-calendar,
@@ -370,11 +373,14 @@ body {
       aspect-ratio: 1;
       margin-right: 5px;
       vertical-align: sub;
+
+      @include xs {
+        .card & {
+          font-size: 11px;
+          width: 10px;
+        }
+      }
     }
-
-    @include lt-lg {}
-
-    @include lg {}
   }
 }
 

@@ -110,7 +110,9 @@
     }
 
     .owl-stage-outer {
-      overflow: visible !important;
+      @include gt-xs {
+        overflow: visible !important;
+      }
 
       .owl-item.active {
         .card {
@@ -118,17 +120,7 @@
           transform-origin: center;
           margin-top: 0px;
 
-          @include lt-md {
-            padding-left: 0px;
-            padding-right: 0px;
-          }
-
           .card-body {
-            @include lt-md {
-              padding-left: 0px;
-              padding-right: 0px;
-            }
-
             .box-text {
               opacity: 1;
             }
@@ -146,34 +138,47 @@
         background-color: transparent;
         border: none;
 
-        @include gt-sm {
+        @include xs {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+
+        @include gt-xs {
           transform: scale(0.8);
           transform-origin: right;
           transition: .5s;
           margin-top: -7px;
         }
 
-        iframe,
-        video,
-        img {
-          width: 100%;
-          aspect-ratio: 100/55;
-          background-color: #000;
-        }
+        .card-body {
+          @include xs {
+            padding-left: 3px;
+            padding-right: 3px;
+          }
 
-        .box-text {
-          margin-top: 15px;
-          opacity: 0;
+          iframe,
+          video,
+          img {
+            width: 100%;
+            aspect-ratio: 100/55;
+            background-color: #000;
+            display: block;
+          }
 
-          h5 {
-            width: calc(45% + 10vw);
+          .box-text {
+            margin-top: 15px;
+            opacity: 0;
 
-            @include sm {
-              width: calc(62% + 10vw);
-            }
+            h5 {
+              width: calc(45% + 10vw);
 
-            @include xs {
-              width: 100%;
+              @include sm {
+                width: calc(62% + 10vw);
+              }
+
+              @include xs {
+                width: 100%;
+              }
             }
           }
         }
