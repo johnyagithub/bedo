@@ -14,6 +14,10 @@ $(function () {
     $('body').css('font-size', $(this).data('font-size') || '');
   });
 
+  $("[data-src='#download']").on("click", function () {
+    $('#url-download').val($(this).data('url'));
+  });
+
   if (localStorage.getItem('cookie') != 'allow') {
     setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
   }
@@ -193,6 +197,55 @@ let Activitty = () => {
     $(".box-list-activity .owl-item.active .card-body > a").css("transform", "translate(" + l / 100 + "px, " + t / 100 + "px)");
     $(".box-list-activity .owl-item.active .b-text").css("transform", "translate(" + l / 40 + "px, " + t / 40 + "px)");
   });
+}
+
+
+let clickDownload = (This) => {
+  var Form = This.closest("#download");
+  var Select1 = Form.find('#exampleFormControlSelect1 option:selected');
+  var Select2 = Form.find('#exampleFormControlSelect2 option:selected');
+  var Input1 = Form.find('#exampleFormControlInput1');
+  var Download = Form.find('#url-download');
+
+  if (Select1.val() == "" || Select2.val() == "" || Input1.val() == "") {
+    if (Select1.val() == "") {
+      Form.find('#exampleFormControlSelect1').addClass('is-invalid');
+    } else {
+      Form.find('#exampleFormControlSelect1').removeClass('is-invalid');
+    }
+    if (Select2.val() == "") {
+      Form.find('#exampleFormControlSelect2').addClass('is-invalid');
+    } else {
+      Form.find('#exampleFormControlSelect2').removeClass('is-invalid');
+    }
+    if (Input1.val() == "") {
+      Form.find('#exampleFormControlInput1').addClass('is-invalid');
+    } else {
+      Form.find('#exampleFormControlInput1').removeClass('is-invalid');
+    }
+  } else {
+    // เอาไปใช้
+    console.log('วัตถุประสงค์: ' + Select1.val() + '\nหน่วยงาน/บริษัท: ' + Select2.val() + '\nอีเมล: ' + Input1.val() + '\nลิงค์ดาวน์โหลด: ' + Download.val());
+
+    window.open(Download.val(), '_blank');
+
+    setTimeout(function () {
+      $('[type="reset"]').click()
+    }, 500);
+
+    $.fancybox.close();
+  }
+}
+let changeThis = (This, t) => {
+  if (t == 'select') {
+    if (This.find('option:selected').val() != "") {
+      This.removeClass('is-invalid');
+    }
+  } else {
+    if (This.val() != "") {
+      This.removeClass('is-invalid');
+    }
+  }
 }
 
 function aos() {

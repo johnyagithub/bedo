@@ -86,7 +86,7 @@
             </a>
           </div>
         </div>
-        <a href="variety.php" class="btn btn-warning px-4 mt-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</a>
+        <a href="project.php" class="btn btn-warning px-4 mt-4" data-aos="fade">แผนที่ความหลากหลายทางชีวภาพ</a>
       </div>
     </section>
 

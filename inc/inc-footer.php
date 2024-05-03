@@ -41,8 +41,8 @@
     </div>
   </div>
   <div class="box-sitemap">
-    <button class="btn btn-primary px-4 d-block mx-auto collapsed" type="button" data-toggle="collapse" data-target="#sitemap"
-      aria-expanded="false" aria-controls="sitemap">
+    <button class="btn btn-primary px-4 d-block mx-auto collapsed" type="button" data-toggle="collapse"
+      data-target="#sitemap" aria-expanded="false" aria-controls="sitemap">
       แผนผังเว็บไซต์
     </button>
     <div class="collapse bg-primary" id="sitemap">
@@ -112,4 +112,10 @@
     </div>
 </footer>
 
+<!-- begin popup cookie -->
 <?php include ('inc-cookie.php'); ?>
+<!-- end popup cookie -->
+
+<!-- begin popup download -->
+<?php include ('./inc/inc-form-download.php'); ?>
+<!-- end popup download -->
