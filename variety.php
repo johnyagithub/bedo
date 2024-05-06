@@ -74,7 +74,7 @@
             </select>
           </div>
           <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <a href="#" class="btn btn-outline-secondary w-100">
+            <a href="#" class="btn btn-outline-secondary w-100 px-1">
               <span class="material-symbols-outlined h5 m-0" style="vertical-align: sub;">swap_vert</span>
               ตามความนิยม
             </a>

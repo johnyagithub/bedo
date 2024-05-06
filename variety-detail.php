@@ -47,11 +47,11 @@
             <span class="material-symbols-outlined">calendar_month</span>
             18 มกราคม 2564
           </div>
-          <div class="b-visibility ml-4">
+          <div class="b-visibility">
             <span class="material-symbols-outlined">visibility</span>
             596
           </div>
-          <div class="b-share ml-4">
+          <div class="b-share">
             <span class="material-symbols-outlined">share</span>
             99
           </div>
@@ -212,15 +212,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -238,15 +238,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -264,15 +264,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -290,15 +290,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -316,15 +316,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -342,15 +342,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -368,15 +368,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -394,15 +394,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -420,15 +420,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -446,15 +446,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -472,15 +472,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -498,15 +498,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-2 ml-md-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-2 ml-md-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>

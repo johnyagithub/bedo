@@ -30,8 +30,8 @@
           <div class="box-text container">
             <div class="b-text text-white mr-0">
               <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
-              <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
-              <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
+                <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
+                <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
             </div>
           </div>
         </div>
@@ -122,13 +122,17 @@
                     </div>
                     <div class="box-text">
                       <div class="box-information">
-                        <div class="b-calendar mr-auto">
+                        <div class="b-calendar">
                           <span class="material-symbols-outlined">calendar_month</span>
                           18 มกราคม 2564
                         </div>
-                        <div class="b-visibility ml-3">
+                        <div class="b-visibility">
                           <span class="material-symbols-outlined">visibility</span>
                           596
+                        </div>
+                        <div class="b-share">
+                          <span class="material-symbols-outlined">share</span>
+                          99
                         </div>
                       </div>
                       <h5 class="text-line2">พันธุ์ไม้ป่าชายเลน</h5>
@@ -153,13 +157,17 @@
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
-                          <div class="b-calendar mr-auto">
+                          <div class="b-calendar">
                             <span class="material-symbols-outlined">calendar_month</span>
                             18 มกราคม 2564
                           </div>
-                          <div class="b-visibility ml-3">
+                          <div class="b-visibility">
                             <span class="material-symbols-outlined">visibility</span>
                             596
+                          </div>
+                          <div class="b-share">
+                            <span class="material-symbols-outlined">share</span>
+                            99
                           </div>
                         </div>
                         <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
@@ -177,13 +185,17 @@
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
-                          <div class="b-calendar mr-auto">
+                          <div class="b-calendar">
                             <span class="material-symbols-outlined">calendar_month</span>
                             18 มกราคม 2564
                           </div>
-                          <div class="b-visibility ml-3">
+                          <div class="b-visibility">
                             <span class="material-symbols-outlined">visibility</span>
                             596
+                          </div>
+                          <div class="b-share">
+                            <span class="material-symbols-outlined">share</span>
+                            99
                           </div>
                         </div>
                         <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
@@ -201,13 +213,17 @@
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
-                          <div class="b-calendar mr-auto">
+                          <div class="b-calendar">
                             <span class="material-symbols-outlined">calendar_month</span>
                             18 มกราคม 2564
                           </div>
-                          <div class="b-visibility ml-3">
+                          <div class="b-visibility">
                             <span class="material-symbols-outlined">visibility</span>
                             596
+                          </div>
+                          <div class="b-share">
+                            <span class="material-symbols-outlined">share</span>
+                            99
                           </div>
                         </div>
                         <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
@@ -225,13 +241,17 @@
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
-                          <div class="b-calendar mr-auto">
+                          <div class="b-calendar">
                             <span class="material-symbols-outlined">calendar_month</span>
                             18 มกราคม 2564
                           </div>
-                          <div class="b-visibility ml-3">
+                          <div class="b-visibility">
                             <span class="material-symbols-outlined">visibility</span>
                             596
+                          </div>
+                          <div class="b-share">
+                            <span class="material-symbols-outlined">share</span>
+                            99
                           </div>
                         </div>
                         <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
@@ -247,13 +267,17 @@
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
-                          <div class="b-calendar mr-auto">
+                          <div class="b-calendar">
                             <span class="material-symbols-outlined">calendar_month</span>
                             18 มกราคม 2564
                           </div>
-                          <div class="b-visibility ml-3">
+                          <div class="b-visibility">
                             <span class="material-symbols-outlined">visibility</span>
                             596
+                          </div>
+                          <div class="b-share">
+                            <span class="material-symbols-outlined">share</span>
+                            99
                           </div>
                         </div>
                         <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
@@ -269,13 +293,17 @@
                       </div>
                       <div class="col-8 box-text">
                         <div class="box-information">
-                          <div class="b-calendar mr-auto">
+                          <div class="b-calendar">
                             <span class="material-symbols-outlined">calendar_month</span>
                             18 มกราคม 2564
                           </div>
-                          <div class="b-visibility ml-3">
+                          <div class="b-visibility">
                             <span class="material-symbols-outlined">visibility</span>
                             596
+                          </div>
+                          <div class="b-share">
+                            <span class="material-symbols-outlined">share</span>
+                            99
                           </div>
                         </div>
                         <h5 class="text-line2">ทุเรียนไทย แชมป์ส่งออก เบอร์ 1 ของโลก</h5>
@@ -322,15 +350,15 @@
                   allowfullscreen></iframe>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -346,15 +374,15 @@
                 </video>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -372,15 +400,15 @@
                 </a>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -429,15 +457,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -459,15 +487,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -486,15 +514,15 @@
                 </div>
                 <div class="box-text">
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -549,15 +577,15 @@
                 <div class="b-text">
                   <h6 class="mb-2">ข่าวและกิจกรรม</h6>
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>
@@ -582,15 +610,15 @@
                 <div class="b-text">
                   <h6 class="mb-2">ข่าวและกิจกรรม</h6>
                   <div class="box-information">
-                    <div class="b-calendar mr-auto">
+                    <div class="b-calendar">
                       <span class="material-symbols-outlined">calendar_month</span>
                       18 มกราคม 2564
                     </div>
-                    <div class="b-visibility ml-3">
+                    <div class="b-visibility">
                       <span class="material-symbols-outlined">visibility</span>
                       596
                     </div>
-                    <div class="b-share ml-3">
+                    <div class="b-share">
                       <span class="material-symbols-outlined">share</span>
                       99
                     </div>

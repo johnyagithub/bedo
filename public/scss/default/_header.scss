@@ -115,6 +115,7 @@ header {
         img {
           cursor: pointer;
           margin: 3px 0px;
+          filter: brightness(0) invert(1);
 
           &.size-small {
             width: 22px;
@@ -129,8 +130,7 @@ header {
           }
 
           &.active {
-            mix-blend-mode: color-dodge;
-            filter: contrast(0.5);
+            filter: none;
           }
         }
       }
@@ -334,7 +334,7 @@ header {
     position: fixed;
     inset: 0;
     justify-content: center;
-    background-color: rgba(3,37,21,.78);
+    background-color: rgba(3, 37, 21, .78);
     background-clip: content-box;
     transition: .5s;
     display: flex;

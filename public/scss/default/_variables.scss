@@ -175,38 +175,6 @@ body {
     opacity: .6;
   }
 
-  .h-head {
-    position: relative;
-    padding-bottom: 12px;
-    display: block;
-    max-width: max-content;
-
-    &::after {
-      content: "";
-      left: 0px;
-      position: absolute;
-      width: 100px;
-      border-top: 1px solid #000;
-      bottom: 0px;
-      max-width: 50%;
-      min-width: 50px;
-    }
-
-    &.text-center {
-      margin-left: auto;
-      margin-right: auto;
-
-      &::after {
-        left: 50%;
-        transform: translateX(-50%);
-      }
-    }
-
-    &.text-white::after {
-      border-top-color: #fff;
-    }
-  }
-
   .text-center .h-head {
     display: table;
     margin-left: auto;
@@ -248,6 +216,7 @@ body {
     margin-left: auto;
     margin-right: 30px;
     align-items: center;
+    justify-content: center;
 
     @include lt-md {
       order: 1;
@@ -292,7 +261,8 @@ body {
   }
 
   .owl-dots {
-    margin: 5px auto;
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     max-width: calc(100% - 72px);
 
@@ -353,15 +323,72 @@ body {
   }
 }
 
+.h-head {
+  position: relative;
+  padding-bottom: 12px;
+  display: block;
+  max-width: max-content;
+
+  &::after {
+    content: "";
+    left: 0px;
+    position: absolute;
+    width: 100px;
+    border-top: 1px solid #000;
+    bottom: 0px;
+    max-width: 50%;
+    min-width: 50px;
+  }
+
+  &[class*=text-line] {
+    position: relative;
+
+    &::before {
+      content: "";
+      height: 12px;
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+      background-color: #fff;
+
+      section[style="background-color:#f7f7f7;"] & {
+        background-color: #f7f7f7;
+      }
+    }
+  }
+
+  &[class*=text-line1] {
+    &::before {
+      display: none;
+    }
+  }
+
+  &.text-center {
+    margin-left: auto;
+    margin-right: auto;
+
+    &::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &.text-white::after {
+    border-top-color: #fff;
+  }
+}
+
 .box-information {
   display: flex;
   color: #999999;
   margin-bottom: 12px;
-  font-size: 0.7em;
+  font-size: 9px;
 
   @include xs {
-    .card.col-6 & {
-      font-size: 9px;
+
+    .card.col-6 &,
+    .owl-carousel & {
+      font-size: 8px;
       font-weight: 500;
     }
   }
@@ -370,19 +397,56 @@ body {
   .b-visibility,
   .b-share {
     display: flex;
+    align-items: center;
+    line-height: 2;
 
     span.material-symbols-outlined {
       font-size: 15px;
       width: 15px;
       aspect-ratio: 1;
-      margin-right: 5px;
       vertical-align: sub;
+      margin-right: 5px;
 
       @include xs {
-        .card.col-6 & {
+        margin-right: 3px;
+
+        .card.col-6 &,
+        .owl-carousel & {
           font-size: 11px;
           width: 10px;
         }
+      }
+    }
+  }
+
+  .b-calendar {
+    margin-right: auto;
+
+    .box-list-multimedia & {
+      margin-right: 5px;
+    }
+  }
+
+  .b-visibility {
+    margin-left: 15px;
+
+    @include xs {
+
+      .col-6 &,
+      .owl-carousel & {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .b-share {
+    margin-left: 10px;
+
+    @include xs {
+
+      .col-6 &,
+      .owl-carousel & {
+        margin-left: 5px;
       }
     }
   }
@@ -789,6 +853,16 @@ nav[aria-label=breadcrumb],
 }
 
 .section-head {
+  .box-information {
+    .b-calendar {
+      margin-right: 15px;
+    }
+
+    .b-share {
+      margin-left: 25px;
+    }
+  }
+
   @include gt-md {
     margin-top: -100px;
   }
