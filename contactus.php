@@ -59,7 +59,7 @@
               </li>
               <li>
                 <span class="material-symbols-outlined rounded-circle bg-dark text-white align-middle">mail</span>
-                <a href="mailto:support@arda.or.th">support@arda.or.th</a>
+                <a href="mailto:saraban@bedo.or.th">saraban@bedo.or.th</a>
               </li>
             </ul>
             <div class="box-social">
