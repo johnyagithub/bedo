@@ -29,9 +29,9 @@
           <img class="img-banner" src="public/images/banner.jpg">
           <div class="box-text container">
             <div class="b-text text-white mr-0">
-              <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h3>
-                <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
-                <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
+              <h1 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h1>
+              <h1 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h1>
+              <h1 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h1>
             </div>
           </div>
         </div>
@@ -39,9 +39,9 @@
           <img class="img-banner" src="public/images/banner.jpg">
           <div class="box-text container">
             <div class="b-text text-white mr-0">
-              <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h2>
-              <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
-              <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
+              <h1 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h1>
+              <h1 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h1>
+              <h1 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h1>
             </div>
           </div>
         </div>
@@ -49,9 +49,9 @@
           <img class="img-banner" src="public/images/banner.jpg">
           <div class="box-text container">
             <div class="b-text text-white mr-0">
-              <h2 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h2>
-              <h2 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h2>
-              <h2 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h2>
+              <h1 class="my-3">“การท่องเที่ยวบนพื้นฐานความ</h1>
+              <h1 class="text-warning my-3"><u>หลากหลายทางชีวภาพ</u></h1>
+              <h1 class="my-3">เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน”</h1>
             </div>
           </div>
         </div>
