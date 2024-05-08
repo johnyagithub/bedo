@@ -61,10 +61,10 @@
 
     <section class="box-biodiversity py-5">
       <div class="container text-center">
-        <h3 class="h-head text-white" data-aos="fade">ความหลากหลายทางชัวภาพ</h3>
-        <h3 class="mt-4 opacity-06" data-aos="fade">"โครงการต้นแบบการเสริมสร้างศักยภาพ"</h3>
+        <h3 class="h-head text-white" data-aos="fade">ความหลากหลายทางชีวภาพ</h3>
+        <h3 class="mt-4 opacity-06" data-aos="fade">"โครงการบูรณาการ การท่องเที่ยวบนพื้นฐานความหลากหลายทางชีวภาพ"</h3>
         <p class="opacity-06" data-aos="fade">
-          ขององค์กรปกครองส่วนท้องถิ่นในการป้องกันและใช้ประโยชน์ความหลากหลายทางชีวภาพอย่างยั่งยืนในภูมินิเวศของประเทศไทย
+          เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน
         </p>
         <div class="row list-biodiversity">
           <div class="col-sm-4  py-3" data-aos="fade-up">
