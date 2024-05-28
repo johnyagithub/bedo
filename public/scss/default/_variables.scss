@@ -673,7 +673,8 @@ header,
 footer,
 nav[aria-label=breadcrumb],
 .box-search-head,
-.box-project-name {
+.box-project-name ,
+.footer-bottom {
   >.container {
     max-width: $container-xl-px;
   }
