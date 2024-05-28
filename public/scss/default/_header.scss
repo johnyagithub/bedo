@@ -342,14 +342,14 @@ header {
     backdrop-filter: blur(5px);
 
     @include lt-md {
-      right: $width-menu-mobile;
+      right: 0px;
     }
 
     .box-Tag-search {
-      max-width: 500px;
       display: flex;
       flex-wrap: wrap;
-      width: 100%;
+      max-width: calc(100vw - 50px);
+      width: 500px;
 
       .btn {
         border-radius: 20px;
@@ -394,6 +394,11 @@ header {
       text-decoration: none;
       transform: translateX(100%);
 
+      @include lt-md {
+        transform: none;
+        bottom: auto;
+      }
+
       .material-symbols-outlined {
         color: #fff;
         background-color: #052516;
@@ -408,13 +413,14 @@ header {
         @include lt-md {
           width: $width-menu-mobile;
           height: 63px;
+          background-color: #000;
         }
       }
     }
 
     .group-search {
       border-radius: 7px;
-      max-width: calc(100vw - 48px);
+      max-width: calc(100vw - 50px);
       margin-bottom: 0px;
       width: 500px;
       padding: 2px;
