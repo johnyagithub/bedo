@@ -764,11 +764,30 @@ nav[aria-label=breadcrumb],
   left: 0px;
   right: 0px;
   top: 0px;
+  z-index: 1;
+
+  @include lt-md {
+    top: 91px;
+  }
 }
 
 .iframe-map {
   height: calc(100vh - 54px);
   background-color: #86a6be;
+
+  @include lt-md {
+    height: calc(100vh - 200px);
+  }
+}
+
+.ldmap_placeholder .ldmap_popup_mini {
+  border-radius: 20px;
+
+  iframe.popupMap {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
 }
 
 #list-map {

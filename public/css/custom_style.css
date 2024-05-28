@@ -1,4 +1,20 @@
 
+.select2-container--default .select2-selection--single {
+	border-radius: 10px;
+	height: calc(1.5em + .75rem + 2px);
+	font-weight: 400;
+	border: 1px solid #ced4da;
+}
+span.select2-dropdown.select2-dropdown--below {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	overflow: hidden;
+}
+
+a.disabled {
+	pointer-events: none;
+	opacity: 0.4;
+}
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

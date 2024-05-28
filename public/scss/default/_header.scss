@@ -335,20 +335,68 @@ header {
     inset: 0;
     justify-content: center;
     background-color: rgba(3, 37, 21, .78);
-    background-clip: content-box;
     transition: .5s;
     display: flex;
     height: 100vh;
+    right: $width-menu;
+    backdrop-filter: blur(5px);
+
+    @include lt-md {
+      right: $width-menu-mobile;
+    }
+
+    .box-Tag-search {
+      max-width: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      width: calc(100% - 44px);
+
+      .btn {
+        border-radius: 20px;
+        transition: .5s;
+        background-color: transparent;
+        margin: 8px 2px;
+        color: #fff;
+        padding: 3px 15px;
+
+        &:hover {
+          border-radius: 10px;
+        }
+      }
+
+      span.b-toggle {
+        ~ {
+          .btn {
+            display: none;
+          }
+        }
+      }
+
+      #btn-show,
+      #btn-hide {
+        padding: 0px !important;
+        width: 32px;
+        height: 32px;
+        line-height: 0;
+        order: 1;
+        text-align: center;
+      }
+
+      #btn-hide {
+        display: none;
+      }
+    }
 
     [data-toggle="collapse"] {
       position: absolute;
       right: 0px;
-      top: 0px;
+      bottom: 0px;
       text-decoration: none;
+      transform: translateX(100%);
 
       .material-symbols-outlined {
         color: #fff;
-        background-color: #000000;
+        background-color: #052516;
         border: none;
         aspect-ratio: 1;
         display: flex;
@@ -359,18 +407,26 @@ header {
 
         @include lt-md {
           width: $width-menu-mobile;
+          height: 63px;
         }
       }
     }
 
     .group-search {
-      border-radius: 20px;
+      border-radius: 7px;
       max-width: calc(100vw - 48px);
       margin-bottom: 0px;
       width: 500px;
+      padding: 2px;
 
       button.btn {
         background-color: transparent;
+        color: #ffffff;
+
+        span {
+          font-size: 37px !important;
+          line-height: 27px !important;
+        }
       }
     }
 
@@ -391,7 +447,8 @@ header {
 }
 
 .group-search {
-  background-color: #fff;
+  background-color: transparent;
+  border: 1px solid #939393;
   border-radius: calc($border-radius / 2);
   width: 100%;
   flex-flow: nowrap;
@@ -417,18 +474,24 @@ header {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       border: none !important;
+      font-size: 20px;
     }
   }
 
   .form-control {
     border: 1px solid #ececec;
-    background-color: #fff;
+    background-color: transparent;
     box-shadow: none;
     width: 100%;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: calc($border-radius / 2);
     border-bottom-left-radius: calc($border-radius / 2);
+    color: #ffffff;
+
+    &::placeholder {
+      color: #a4a4a4;
+    }
   }
 }
 
