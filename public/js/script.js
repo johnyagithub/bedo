@@ -15,12 +15,12 @@ $(function () {
   $("#form-search .box-Tag-search #btn-show").on("click", function () {
     $("#btn-show").hide();
     $("#btn-hide").show();
-    $("#form-search span.b-toggle").nextUntil("#form-search span.b-toggle:last-child").not("#btn-show").show();
+    $("#form-search span.b-toggle").nextUntil().show();
   });
   $("#form-search .box-Tag-search #btn-hide").on("click", function () {
     $("#btn-show").show();
     $("#btn-hide").hide();
-    $("#form-search span.b-toggle").nextUntil("#form-search span.b-toggle:last-child").not("#btn-show").hide();
+    $("#form-search span.b-toggle").nextUntil().hide();
   });
 
   $(".box-header .b-fontsize > img").on("click", function () {

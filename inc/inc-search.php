@@ -20,7 +20,6 @@
       <button type="button" class="btn btn-outline-secondary">สัตว์เลื้อยคลาน</button>
       <button type="button" class="btn btn-outline-secondary">สัตว์เลือดเย็น</button>
       <button type="button" class="btn btn-outline-secondary">สัตว์เลือดอุ่น</button>
-      <button type="button" class="btn btn-outline-secondary">สัปเหร่อ</button>
     </div>
     <form class="form-inline group-search mr-md-2 mb-md-2" action="#">
       <button class="btn" type="submit">
