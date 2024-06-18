@@ -36,8 +36,9 @@
 
       &[data-type="pdf"]::before,
       &[data-type="doc"]::before,
-      &[data-type="xls"]::before {
-        content: "";
+      &[data-type="xls"]::before ,
+      &[data-type="zip"]::before {
+          content: "";
         background: no-repeat center;
         background-size: contain;
         width: 40px;
@@ -56,6 +57,10 @@
 
       &[data-type="xls"]::before {
         background-image: url(../images/icon-xls.png);
+      }
+
+      &[data-type="zip"]::before {
+        background-image: url(../images/icon-zip.png);
       }
 
       .box-text {

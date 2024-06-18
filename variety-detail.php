@@ -111,7 +111,7 @@
     <section class="pb-4">
       <div class="container container-lt-md-fluid">
         <h4 class="mx-3 mx-md-0 mb-4">แกลเลอรี่</h4>
-        <div class="box-gallery owl-carousel">
+        <div class="box-gallery">
           <a href="https://via.placeholder.com/700x450.jpg" data-fancybox="gallery" data-caption="">
             <img src="https://via.placeholder.com/700x450" alt="" />
           </a>
