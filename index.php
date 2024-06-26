@@ -62,7 +62,7 @@
     <section class="box-biodiversity py-5">
       <div class="container text-center">
         <h3 class="h-head text-white" data-aos="fade">ความหลากหลายทางชีวภาพ</h3>
-        <h3 class="mt-4 opacity-06" data-aos="fade">"โครงการบูรณาการ การท่องเที่ยวบนพื้นฐานความหลากหลายทางชีวภาพ"</h3>
+        <h3 class="opacity-06" data-aos="fade">"โครงการบูรณาการ การท่องเที่ยวบนพื้นฐานความหลากหลายทางชีวภาพ"</h3>
         <p class="opacity-06" data-aos="fade">
           เพื่อการพัฒนาการท่องเที่ยวอย่างยั่งยืน
         </p>

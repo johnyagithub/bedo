@@ -39,43 +39,33 @@
     <section class="pb-4 pb-xl-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-7 d-xl-flex align-items-baseline flex-wrap">
+          <div class="col-md-6 d-xl-flex align-items-baseline flex-wrap">
             <h2 class="h-head mb-3 ml-1">ความหลากหลายทางชีวภาพ</h2>
           </div>
-          <div class="col-md-5">
-            <form class="form-inline group-search" action="#">
-              <input class="form-control bg-light" type="text" placeholder="ค้นหา.." aria-label="Search" name="keyword">
-              <button class="btn text-white" type="submit">
-                <span class="material-symbols-outlined">search</span>
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="row m-0 justify-content-sm-end">
-          <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <select class="form-control">
-              <option value="">จังหวัด</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <select class="form-control">
-              <option value="">อำเภอ</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <select class="form-control">
-              <option value="">ตำบล</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-2 p-2">
-            <a href="#" class="btn btn-outline-secondary w-100 px-1"><span class="material-symbols-outlined h5 m-0"
-                style="vertical-align: sub;">swap_vert</span>ตามความนิยม</a>
+          <div class="col-md-6">
+            <div class="row m-0">
+              <div class="col-6 col-lg-4 p-2">
+                <select class="form-control">
+                  <option value="">จังหวัด</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </div>
+              <div class="col-6 col-lg-4 p-2">
+                <select class="form-control">
+                  <option value="">อำเภอ</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </div>
+              <div class="col-6 col-lg-4 p-2">
+                <select class="form-control">
+                  <option value="">ตำบล</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -84,7 +74,7 @@
     <section class="box-biodiversity py-5">
       <div class="container text-center">
         <h3 class="h-head text-white" data-aos="fade">ความหลากหลายทางชัวภาพ</h3>
-        <h3 class="mt-4 opacity-06" data-aos="fade">"โครงการต้นแบบการเสริมสร้างศักยภาพ"</h3>
+        <h3 class="opacity-06" data-aos="fade">"โครงการต้นแบบการเสริมสร้างศักยภาพ"</h3>
         <p class="opacity-06" data-aos="fade">
           ขององค์กรปกครองส่วนท้องถิ่นในการป้องกันและใช้ประโยชน์ความหลากหลายทางชีวภาพอย่างยั่งยืนในภูมินิเวศของประเทศไทย
         </p>

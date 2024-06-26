@@ -591,6 +591,9 @@ nav[aria-label='breadcrumb'] {
       text-overflow: ellipsis;
     }
   }
+  & + section.pb-xl-5 {
+    padding-bottom: 20px !important;
+  }
 }
 
 select {
@@ -663,8 +666,8 @@ table {
 }
 
 section.py-5 {
-  padding-bottom: 4rem !important;
-  padding-top: 4rem !important;
+  padding-bottom: 40px !important;
+  padding-top: 40px !important;
 }
 
 $container-xl-px: 1250px;
@@ -888,7 +891,7 @@ nav[aria-label=breadcrumb],
   }
 
   @include gt-md {
-    margin-top: -100px;
+    margin-top: -30px;
   }
 }
 
